@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts (future-proofing)
+node_modules/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+Claude.md
+
+# Logs
+*.log
+netlify.toml
+docs/Deployment-Guide.txt
+docs/

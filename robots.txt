@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*?success=true
+
+Sitemap: https://altroncast.com/sitemap.xml

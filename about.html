@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/images/logo/Altron-Logo.svg">
+  <meta name="description" content="Learn about Altron Cast Pvt. Ltd. - Our journey, milestones, growth targets, and expansion plans. Precision die casting since 2017.">
+  <meta name="author" content="Altron Cast Pvt. Ltd.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://altroncast.com/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Altron Cast Pvt. Ltd.">
+  <meta property="og:url" content="https://altroncast.com/about.html">
+  <meta property="og:title" content="About Us | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar">
+  <meta property="og:description" content="Learn about Altron Cast Pvt. Ltd. - Our journey, milestones, growth targets, and expansion plans. Precision die casting since 2017.">
+  <meta property="og:image" content="https://altroncast.com/assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Us | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar">
+  <meta name="twitter:description" content="Learn about Altron Cast Pvt. Ltd. - Our journey, milestones, growth targets, and expansion plans. Precision die casting since 2017.">
+  <meta name="twitter:image" content="https://altroncast.com/assets/images/og-image.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#F97316',
+            dark: '#0F172A',
+            steel: '#1E293B',
+            panel: '#1F2937',
+            muted: '#94A3B8'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Barlow Condensed', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-left {
+      opacity: 0;
+      transform: translateX(-40px);
+      transition: all 0.6s ease;
+    }
+    .reveal-left.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    .reveal-right {
+      opacity: 0;
+      transform: translateX(40px);
+      transition: all 0.6s ease;
+    }
+    .reveal-right.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    .dropdown-content {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: visibility 0.2s, opacity 0.2s, transform 0.2s;
+    }
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    .dropdown:hover .dropdown-content {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-dark text-white font-sans antialiased">
+  <!-- ========== STICKY NAVBAR ========== -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="index.html">
+          <img src="assets/images/logo/Altron-Logo.svg" alt="Altron Cast Pvt. Ltd." class="h-12 w-auto">
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="text-sm text-white hover:text-brand transition">Home</a>
+          <div class="dropdown relative">
+            <a href="#overview" class="text-sm text-white hover:text-brand transition inline-flex items-center">About ▾</a>
+            <div class="dropdown-content absolute top-full left-0 mt-2 w-56 py-2 bg-panel rounded-lg shadow-xl border border-steel">
+              <a href="#overview" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Overview</a>
+              <a href="#milestones" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Milestones</a>
+              <a href="#growth" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Growth & Targets</a>
+              <a href="#expansion" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Expansion Plan</a>
+            </div>
+          </div>
+          <a href="index.html#products" class="text-sm text-white hover:text-brand transition">Products</a>
+          <a href="index.html#why-us" class="text-sm text-white hover:text-brand transition">R&D & Quality</a>
+          <a href="index.html#why-us" class="text-sm text-white hover:text-brand transition">Specialization</a>
+          <a href="index.html#clients" class="text-sm text-white hover:text-brand transition">Clients</a>
+          <a href="contact.html" class="text-sm text-white hover:text-brand transition">Contact</a>
+        </div>
+
+        <!-- CTA Button (Desktop) -->
+        <a href="tel:+919958007665" class="hidden lg:inline-flex items-center px-4 py-2 bg-brand text-white text-sm font-medium rounded-md hover:bg-orange-600 transition">
+          📞 +91 99580 07665
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button id="hamburger" class="lg:hidden p-2 text-white hover:text-brand transition" aria-label="Open menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="lg:hidden fixed inset-x-0 top-20 bg-dark/98 shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out z-40 overflow-y-auto">
+      <div class="py-6 px-4 space-y-2">
+        <a href="index.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Home</a>
+        <div class="py-3 px-4">
+          <span class="text-brand font-semibold text-sm">About</span>
+          <a href="#overview" class="block py-2 pl-4 text-white hover:text-brand transition">Overview</a>
+          <a href="#milestones" class="block py-2 pl-4 text-white hover:text-brand transition">Milestones</a>
+          <a href="#growth" class="block py-2 pl-4 text-white hover:text-brand transition">Growth & Targets</a>
+          <a href="#expansion" class="block py-2 pl-4 text-white hover:text-brand transition">Expansion Plan</a>
+        </div>
+        <a href="index.html#products" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Products</a>
+        <a href="index.html#why-us" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">R&D & Quality</a>
+        <a href="index.html#why-us" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Specialization</a>
+        <a href="index.html#clients" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Clients</a>
+        <a href="contact.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Contact</a>
+        <a href="tel:+919958007665" class="block py-3 px-4 text-brand font-medium">📞 +91 99580 07665</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== IN-PAGE SUB-NAV TAB BAR ========== -->
+  <div id="sub-nav" class="fixed top-20 left-0 right-0 z-40 bg-steel border-b border-steel/50">
+    <div class="overflow-x-auto scrollbar-hide">
+      <div class="flex min-w-max px-4 py-3 gap-8 md:justify-center">
+        <a href="#overview" class="sub-nav-tab whitespace-nowrap text-white hover:text-white transition border-b-2 border-brand pb-2 px-1 -mb-3">Overview</a>
+        <a href="#milestones" class="sub-nav-tab whitespace-nowrap text-muted hover:text-white transition border-b-2 border-transparent pb-2 px-1 -mb-3">Milestones</a>
+        <a href="#growth" class="sub-nav-tab whitespace-nowrap text-muted hover:text-white transition border-b-2 border-transparent pb-2 px-1 -mb-3">Growth & Targets</a>
+        <a href="#expansion" class="sub-nav-tab whitespace-nowrap text-muted hover:text-white transition border-b-2 border-transparent pb-2 px-1 -mb-3">Expansion Plan</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="pt-32">
+    <!-- ========== PAGE HERO ========== -->
+    <section class="relative h-72 flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-dark via-steel to-dark"></div>
+      <div class="absolute inset-0 opacity-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <pattern id="hex-grid" width="60" height="52" patternUnits="userSpaceOnUse">
+              <path d="M30 0v26M0 13h30M0 13v26h30V13M30 26v26h30V26" fill="none" stroke="white" stroke-width="0.5" opacity="0.5"/>
+              <path d="M30 0l15 13v26l-15 13-15-13V13z" fill="none" stroke="white" stroke-width="0.3" opacity="0.3"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hex-grid)"/>
+        </svg>
+      </div>
+      <div class="relative z-10 text-center px-4">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-2">About Us</p>
+        <h1 class="font-heading font-bold text-5xl mb-4">Who We Are & Where We're Headed</h1>
+        <p class="text-muted text-base mb-4">Seven years of precision, passion, and engineering excellence.</p>
+        <p class="text-muted text-sm">Home / About Us</p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 1: OVERVIEW ========== -->
+    <section id="overview" class="py-24 px-4 reveal">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-5 gap-16 items-center">
+          <div class="md:col-span-3">
+            <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4">Company Overview</p>
+            <h2 class="font-heading font-bold text-4xl mb-6">Precision Die Casting, Engineered for Industry</h2>
+            <p class="text-muted text-base leading-relaxed mb-4">
+              Altron Cast Pvt. Ltd. was established with a singular vision — to deliver world-class die casting solutions to both the automotive and non-automotive sectors. Operating from our state-of-the-art facility in IMT Manesar, Gurugram, we have spent 7 years refining our processes, expanding our capabilities, and building lasting partnerships with our clients.
+            </p>
+            <p class="text-muted text-base leading-relaxed mb-4">
+              We specialize in aluminium and zinc pressure die casting, producing components that meet stringent quality standards. From concept to delivery, our team of engineers and technicians ensure that every part that leaves our facility represents the best in precision manufacturing.
+            </p>
+            <p class="text-muted text-base leading-relaxed mb-6">
+              Our facility is equipped with modern die casting machines, in-house tooling capabilities, and a dedicated quality control lab — enabling us to maintain complete control over the production lifecycle.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <span class="inline-flex items-center bg-panel border border-steel rounded-full px-4 py-1 text-sm text-white">📍 IMT Manesar, Gurugram</span>
+              <span class="inline-flex items-center bg-panel border border-steel rounded-full px-4 py-1 text-sm text-white">🏭 Modern Production Facility</span>
+              <span class="inline-flex items-center bg-panel border border-steel rounded-full px-4 py-1 text-sm text-white">🔩 Aluminium & Zinc Die Casting</span>
+            </div>
+          </div>
+          <div class="md:col-span-2">
+            <div class="aspect-video rounded-2xl overflow-hidden mb-4">
+              <img src="assets/images/Infra/Candid-Building.webp" alt="Altron Cast Facility - IMT Manesar" class="w-full h-full object-cover">
+            </div>
+            <div class="bg-panel rounded-xl p-4">
+              <div class="grid grid-cols-3 gap-4 text-center">
+                <div>
+                  <p class="text-brand text-xs font-semibold mb-1">Established</p>
+                  <p class="text-white text-sm">2017–18</p>
+                </div>
+                <div>
+                  <p class="text-brand text-xs font-semibold mb-1">Location</p>
+                  <p class="text-white text-sm">IMT Manesar</p>
+                </div>
+                <div>
+                  <p class="text-brand text-xs font-semibold mb-1">Sector</p>
+                  <p class="text-white text-sm">Automotive & Industrial</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: MILESTONES ========== -->
+    <section id="milestones" class="py-24 px-4 bg-steel">
+      <div class="max-w-4xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">Our Journey</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Key Milestones</h2>
+        <p class="text-muted text-center mb-16">From our founding to where we stand today — a timeline of growth.</p>
+
+        <!-- Vertical Timeline -->
+        <div class="relative">
+          <!-- Center Line (left on mobile, center on desktop) -->
+          <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-brand -translate-x-1/2"></div>
+
+          <!-- Milestone 1 - Left -->
+          <article class="relative flex items-center gap-8 mb-12 md:mb-16 timeline-item">
+            <div class="hidden md:flex md:flex-1 md:justify-end md:pr-12">
+              <div class="reveal-left bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2017</p>
+                <h3 class="font-bold text-white mb-2">Company Founded</h3>
+                <p class="text-muted text-sm leading-relaxed">Altron Cast Pvt. Ltd. was incorporated and operations commenced at IMT Manesar, Gurugram.</p>
+              </div>
+            </div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="md:hidden ml-12 reveal-left bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2017</p>
+              <h3 class="font-bold text-white mb-2">Company Founded</h3>
+              <p class="text-muted text-sm leading-relaxed">Altron Cast Pvt. Ltd. was incorporated and operations commenced at IMT Manesar, Gurugram.</p>
+            </div>
+          </article>
+
+          <!-- Milestone 2 - Right -->
+          <article class="relative flex items-center gap-8 mb-12 md:mb-16 timeline-item">
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:flex md:flex-1 md:justify-start md:pl-12">
+              <div class="reveal-right bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2018</p>
+                <h3 class="font-bold text-white mb-2">First Automotive Client Onboarded</h3>
+                <p class="text-muted text-sm leading-relaxed">Secured our first major automotive sector client, marking our entry into the competitive Tier-1/Tier-2 supply chain.</p>
+              </div>
+            </div>
+            <div class="md:hidden ml-12 reveal-right bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2018</p>
+              <h3 class="font-bold text-white mb-2">First Automotive Client Onboarded</h3>
+              <p class="text-muted text-sm leading-relaxed">Secured our first major automotive sector client, marking our entry into the competitive Tier-1/Tier-2 supply chain.</p>
+            </div>
+          </article>
+
+          <!-- Milestone 3 - Left -->
+          <article class="relative flex items-center gap-8 mb-12 md:mb-16 timeline-item">
+            <div class="hidden md:flex md:flex-1 md:justify-end md:pr-12">
+              <div class="reveal-left bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2019</p>
+                <h3 class="font-bold text-white mb-2">Production Capacity Expansion</h3>
+                <p class="text-muted text-sm leading-relaxed">Expanded die casting machine capacity to meet growing client demand and improve turnaround times.</p>
+              </div>
+            </div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="md:hidden ml-12 reveal-left bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2019</p>
+              <h3 class="font-bold text-white mb-2">Production Capacity Expansion</h3>
+              <p class="text-muted text-sm leading-relaxed">Expanded die casting machine capacity to meet growing client demand and improve turnaround times.</p>
+            </div>
+          </article>
+
+          <!-- Milestone 4 - Right -->
+          <article class="relative flex items-center gap-8 mb-12 md:mb-16 timeline-item">
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:flex md:flex-1 md:justify-start md:pl-12">
+              <div class="reveal-right bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2021</p>
+                <h3 class="font-bold text-white mb-2">Product Portfolio Crosses 10+</h3>
+                <p class="text-muted text-sm leading-relaxed">Achieved a significant portfolio milestone with 10+ distinct components in active production.</p>
+              </div>
+            </div>
+            <div class="md:hidden ml-12 reveal-right bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2021</p>
+              <h3 class="font-bold text-white mb-2">Product Portfolio Crosses 10+</h3>
+              <p class="text-muted text-sm leading-relaxed">Achieved a significant portfolio milestone with 10+ distinct components in active production.</p>
+            </div>
+          </article>
+
+          <!-- Milestone 5 - Left -->
+          <article class="relative flex items-center gap-8 mb-12 md:mb-16 timeline-item">
+            <div class="hidden md:flex md:flex-1 md:justify-end md:pr-12">
+              <div class="reveal-left bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2023</p>
+                <h3 class="font-bold text-white mb-2">Client Base Grows to 15+</h3>
+                <p class="text-muted text-sm leading-relaxed">Built a diverse client base of 15+ companies across automotive and non-automotive segments.</p>
+              </div>
+            </div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="md:hidden ml-12 reveal-left bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2023</p>
+              <h3 class="font-bold text-white mb-2">Client Base Grows to 15+</h3>
+              <p class="text-muted text-sm leading-relaxed">Built a diverse client base of 15+ companies across automotive and non-automotive segments.</p>
+            </div>
+          </article>
+
+          <!-- Milestone 6 - Right -->
+          <article class="relative flex items-center gap-8 mb-12 md:mb-16 timeline-item">
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:flex md:flex-1 md:justify-start md:pl-12">
+              <div class="reveal-right bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2024</p>
+                <h3 class="font-bold text-white mb-2">New Product Lines Initiated</h3>
+                <p class="text-muted text-sm leading-relaxed">Launched development of upcoming product lines to serve evolving industry needs.</p>
+              </div>
+            </div>
+            <div class="md:hidden ml-12 reveal-right bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2024</p>
+              <h3 class="font-bold text-white mb-2">New Product Lines Initiated</h3>
+              <p class="text-muted text-sm leading-relaxed">Launched development of upcoming product lines to serve evolving industry needs.</p>
+            </div>
+          </article>
+
+          <!-- Milestone 7 - Left -->
+          <article class="relative flex items-center gap-8 timeline-item">
+            <div class="hidden md:flex md:flex-1 md:justify-end md:pr-12">
+              <div class="reveal-left bg-panel rounded-xl p-6 max-w-sm shadow-md w-full">
+                <p class="text-brand font-heading font-bold text-xl mb-2">2025</p>
+                <h3 class="font-bold text-white mb-2">Continued Growth & Expansion</h3>
+                <p class="text-muted text-sm leading-relaxed">Ongoing expansion of capabilities, team, and market reach — with a clear eye on the future.</p>
+              </div>
+            </div>
+            <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-brand rounded-full z-10 flex-shrink-0"></div>
+            <div class="hidden md:block md:flex-1"></div>
+            <div class="md:hidden ml-12 reveal-left bg-panel rounded-xl p-6 shadow-md">
+              <p class="text-brand font-heading font-bold text-xl mb-2">2025</p>
+              <h3 class="font-bold text-white mb-2">Continued Growth & Expansion</h3>
+              <p class="text-muted text-sm leading-relaxed">Ongoing expansion of capabilities, team, and market reach — with a clear eye on the future.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: YOY GROWTH & TARGETS ========== -->
+    <section id="growth" class="py-24 px-4 bg-dark reveal">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">Growth</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Year-Over-Year Growth & Targets</h2>
+        <p class="text-muted text-center mb-16">A consistent upward trajectory across revenue, capacity, and client metrics.</p>
+
+        <!-- Part A: Growth Metrics -->
+        <div class="grid md:grid-cols-4 gap-6 mb-16">
+          <div class="bg-panel rounded-2xl p-6 text-center border-t-4 border-brand">
+            <p class="text-white font-semibold text-sm uppercase tracking-wide">Revenue Growth</p>
+            <p class="font-heading font-bold text-3xl text-brand mt-2">Consistent YOY ↑</p>
+            <p class="text-muted text-sm mt-2">Year-on-year improvement in topline revenue since inception.</p>
+          </div>
+          <div class="bg-panel rounded-2xl p-6 text-center border-t-4 border-brand">
+            <p class="text-white font-semibold text-sm uppercase tracking-wide">Client Retention</p>
+            <p class="font-heading font-bold text-3xl text-brand mt-2">High</p>
+            <p class="text-muted text-sm mt-2">Long-term client relationships built on quality and trust.</p>
+          </div>
+          <div class="bg-panel rounded-2xl p-6 text-center border-t-4 border-brand">
+            <p class="text-white font-semibold text-sm uppercase tracking-wide">Product Portfolio</p>
+            <p class="font-heading font-bold text-3xl text-brand mt-2">20+ Active SKUs</p>
+            <p class="text-muted text-sm mt-2">Continuously expanding to meet diverse client needs.</p>
+          </div>
+          <div class="bg-panel rounded-2xl p-6 text-center border-t-4 border-brand">
+            <p class="text-white font-semibold text-sm uppercase tracking-wide">Capacity Utilization</p>
+            <p class="font-heading font-bold text-3xl text-brand mt-2">Scaling Up</p>
+            <p class="text-muted text-sm mt-2">Increasing machine uptime and shift efficiency year on year.</p>
+          </div>
+        </div>
+
+        <!-- Part B: Targets Table -->
+        <h3 class="font-heading font-bold text-2xl text-white mb-6">Our Targets for the Next 3 Years</h3>
+        <div class="overflow-x-auto rounded-xl border border-[#2D3748]">
+          <table class="w-full min-w-[600px]">
+            <thead>
+              <tr class="bg-brand">
+                <th class="font-heading font-semibold text-white text-left px-6 py-4">Target Area</th>
+                <th class="font-heading font-semibold text-white text-left px-6 py-4">Current Status</th>
+                <th class="font-heading font-semibold text-white text-left px-6 py-4">2026 Target</th>
+                <th class="font-heading font-semibold text-white text-left px-6 py-4">2027–28 Target</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="bg-panel border-b border-[#2D3748]">
+                <td class="px-6 py-4">Client Base</td>
+                <td class="px-6 py-4 text-muted">15+ Clients</td>
+                <td class="px-6 py-4">25+ Clients</td>
+                <td class="px-6 py-4">40+ Clients</td>
+              </tr>
+              <tr class="bg-steel border-b border-[#2D3748]">
+                <td class="px-6 py-4">Product Lines</td>
+                <td class="px-6 py-4 text-muted">20+ Products</td>
+                <td class="px-6 py-4">30+ Products</td>
+                <td class="px-6 py-4">50+ Products</td>
+              </tr>
+              <tr class="bg-panel border-b border-[#2D3748]">
+                <td class="px-6 py-4">Production Capacity</td>
+                <td class="px-6 py-4 text-muted">Baseline</td>
+                <td class="px-6 py-4">+30% Increase</td>
+                <td class="px-6 py-4">+60% Increase</td>
+              </tr>
+              <tr class="bg-steel border-b border-[#2D3748]">
+                <td class="px-6 py-4">Market Segments</td>
+                <td class="px-6 py-4 text-muted">Auto & Industrial</td>
+                <td class="px-6 py-4">+ New Verticals</td>
+                <td class="px-6 py-4">Pan-India Presence</td>
+              </tr>
+              <tr class="bg-panel">
+                <td class="px-6 py-4">Quality Certifications</td>
+                <td class="px-6 py-4 text-muted">In Progress</td>
+                <td class="px-6 py-4">Key Certs Obtained</td>
+                <td class="px-6 py-4">Full Compliance Suite</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: EXPANSION PLAN ========== -->
+    <section id="expansion" class="py-24 px-4 bg-steel reveal">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">The Road Ahead</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Expansion Plan & Future Business Strategies</h2>
+        <p class="text-muted text-center mb-16">Altron Cast is building for scale — in capability, geography, and impact.</p>
+
+        <!-- Three Strategy Pillars -->
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+          <div class="bg-dark rounded-2xl p-8 border border-steel hover:border-brand transition-colors cursor-default">
+            <div class="w-12 h-12 bg-brand/20 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl mb-4">Capacity Expansion</h3>
+            <p class="text-muted leading-relaxed">Planned addition of new die casting machines and expansion of the production floor to increase monthly output and reduce lead times.</p>
+          </div>
+          <div class="bg-dark rounded-2xl p-8 border border-steel hover:border-brand transition-colors cursor-default">
+            <div class="w-12 h-12 bg-brand/20 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl mb-4">New Product Development</h3>
+            <p class="text-muted leading-relaxed">Active R&D investment into new component designs serving emerging automotive (EV) and industrial sectors.</p>
+          </div>
+          <div class="bg-dark rounded-2xl p-8 border border-steel hover:border-brand transition-colors cursor-default">
+            <div class="w-12 h-12 bg-brand/20 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0h.5a2.5 2.5 0 002.5-2.5V3.935M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl mb-4">Market Diversification</h3>
+            <p class="text-muted leading-relaxed">Expanding client base beyond current geographies, targeting new industrial verticals and exploring export opportunities.</p>
+          </div>
+        </div>
+
+        <!-- Strategic Commitments Panel -->
+        <div class="bg-dark rounded-2xl p-10 border border-steel mt-12">
+          <div class="grid md:grid-cols-2 gap-12 items-start">
+            <div>
+              <h3 class="font-heading font-bold text-2xl mb-6">Our Strategic Commitments</h3>
+              <div class="space-y-4">
+                <div class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span class="text-muted">Invest in automation and process efficiency</span>
+                </div>
+                <div class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span class="text-muted">Strengthen Tier-1 automotive partnerships</span>
+                </div>
+                <div class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span class="text-muted">Build a robust quality management system</span>
+                </div>
+                <div class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span class="text-muted">Grow the engineering and technical team</span>
+                </div>
+                <div class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span class="text-muted">Pursue relevant industry certifications</span>
+                </div>
+                <div class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span class="text-muted">Explore sustainable manufacturing practices</span>
+                </div>
+              </div>
+            </div>
+            <div class="bg-panel border-l-4 border-brand p-6 rounded-r-xl">
+              <p class="font-sans italic text-white text-lg leading-relaxed">"Our goal is not just to grow in size — but to grow in precision, trust, and the value we deliver to every client we serve."</p>
+              <p class="text-brand text-sm mt-4">— Altron Cast Leadership</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MINI CTA SECTION ========== -->
+    <section class="py-20 px-4 bg-gradient-to-r from-brand to-orange-700 reveal">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="font-heading font-bold text-4xl text-white mb-6">Want to Know More or Partner With Us?</h2>
+        <p class="text-white/80 text-lg mb-10">Our team is ready to answer your questions and explore opportunities.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="contact.html" class="inline-flex items-center justify-center px-8 py-3 bg-white text-dark font-medium rounded-md hover:bg-gray-100 transition">Contact Us</a>
+          <a href="products.html#products" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-medium rounded-md hover:bg-orange-800 transition">View Our Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-[#0A0F1E] py-16 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          <!-- Col 1: Brand -->
+          <div>
+            <img src="assets/images/logo/Altron-Logo.svg" alt="Altron Cast Pvt. Ltd." class="h-10 w-auto mb-3">
+            <p class="text-muted italic text-sm mb-4">Casting with Passion.</p>
+            <div class="flex gap-4">
+              <a href="#" class="text-muted hover:text-brand transition" aria-label="LinkedIn">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" class="text-muted hover:text-brand transition" aria-label="YouTube">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20Altron%20Cast%20products." target="_blank" rel="noopener noreferrer" class="text-muted hover:text-brand transition" aria-label="WhatsApp">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </div>
+          <!-- Col 2: Quick Links -->
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="text-muted hover:text-white transition">Home</a></li>
+              <li><a href="#overview" class="text-muted hover:text-white transition">About Us</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Products</a></li>
+              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">Specialization</a></li>
+              <li><a href="index.html#clients" class="text-muted hover:text-white transition">Clients</a></li>
+              <li><a href="contact.html" class="text-muted hover:text-white transition">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- Col 3: Products -->
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Products</h4>
+            <ul class="space-y-2">
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Automotive Components</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Non-Automotive Components</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Upcoming Products</a></li>
+              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+            </ul>
+          </div>
+          <!-- Col 4: Reach Us -->
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Reach Us</h4>
+            <ul class="space-y-3 text-muted text-sm">
+              <li><a href="mailto:info@altroncast.com" class="hover:text-white transition flex items-start gap-2">📧 info@altroncast.com</a></li>
+              <li><a href="tel:+919958007665" class="hover:text-white transition flex items-start gap-2">📞 +91 99580 07665</a></li>
+              <li><a href="tel:+911244388400" class="hover:text-white transition flex items-start gap-2">📞 +91 124 438 8400</a></li>
+              <li class="flex items-start gap-2">📍 Plot No. 84, Sector – 5, Phase – I, IMT Manesar, Gurugram, H.R. 122051</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-steel py-4 text-center">
+          <p class="text-muted text-sm">© 2025 Altron Cast Pvt. Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- WHATSApp FLOATING BUTTON -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <div class="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-30"></div>
+    <a
+      href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20Altron%20Cast%20products."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="relative w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg class="w-7 h-7 text-white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.04 3C9.422 3 4.04 8.382 4.04 15c0 2.395.664 4.626 1.93 6.61L4 29l7.58-1.94A11.88 11.88 0 0 0 16.04 27c6.617 0 12-5.382 12-12s-5.383-12-12-12zM16 24.2h-.006a8.18 8.18 0 0 1-4.166-1.141l-.299-.177-3.113.797.832-3.041-.193-.32A8.14 8.14 0 0 1 7.8 15c0-4.53 3.683-8.213 8.214-8.213 2.196 0 4.259.855 5.813 2.41A8.16 8.16 0 0 1 24.24 15c-.003 4.53-3.686 8.2-8.24 8.2zm4.002-6.842c-.219-.11-1.296-.64-1.498-.713-.202-.074-.35-.11-.498.11-.147.219-.57.713-.698.861-.128.147-.257.165-.476.055-.219-.11-.933-.369-1.777-1.131-.658-.593-1.111-1.318-1.242-1.534-.128-.219-.014-.335.096-.459.099-.098.219-.257.328-.385.11-.128.165-.22.247-.366.083-.147.041-.275-.02-.385-.061-.11-.498-1.2-.68-1.646-.179-.456-.36-.394-.498-.401l-.425-.007c-.147 0-.384.055-.584.275-.2.22-.907.886-.907 2.159 0 1.274.929 2.506 1.059 2.682.128.174 1.83 2.793 4.431 3.83.62.256 1.104.408 1.481.523.622.198 1.188.17 1.635.103.499-.074 1.296-.548 1.48-1.055.183-.508.183-.949.128-1.04-.055-.092-.201-.147-.42-.256z" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
+
+  <script>
+    // 1. STICKY NAV - Scroll-based background
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      nav.classList.toggle('bg-[#0F172A]', window.scrollY > 80);
+      nav.classList.toggle('shadow-lg', window.scrollY > 80);
+    });
+
+    // 2. MOBILE MENU TOGGLE
+    const hamburger = document.getElementById('hamburger');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    let drawerOpen = false;
+
+    hamburger.addEventListener('click', () => {
+      drawerOpen = !drawerOpen;
+      mobileDrawer.classList.toggle('-translate-y-full', !drawerOpen);
+      mobileDrawer.classList.toggle('translate-y-0', drawerOpen);
+      hamburger.setAttribute('aria-label', drawerOpen ? 'Close menu' : 'Open menu');
+    });
+
+    mobileDrawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        drawerOpen = false;
+        mobileDrawer.classList.add('-translate-y-full');
+        mobileDrawer.classList.remove('translate-y-0');
+      });
+    });
+
+    // 3. IN-PAGE TAB ACTIVE STATE (IntersectionObserver - section >= 40% in view)
+    const sectionIds = ['overview', 'milestones', 'growth', 'expansion'];
+    const tabs = document.querySelectorAll('.sub-nav-tab');
+    const sectionMap = { overview: 0, milestones: 1, growth: 2, expansion: 3 };
+
+    function setActiveTab(id) {
+      if (!sectionMap.hasOwnProperty(id)) return;
+      tabs.forEach(t => {
+        t.classList.remove('border-brand', 'text-white');
+        t.classList.add('border-transparent', 'text-muted');
+      });
+      const idx = sectionMap[id];
+      if (tabs[idx]) {
+        tabs[idx].classList.add('border-b-2', 'border-brand', 'text-white');
+        tabs[idx].classList.remove('text-muted');
+      }
+    }
+
+    function updateActiveTab() {
+      const triggerPoint = 200;
+      let activeId = sectionIds[0];
+      sectionIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el && el.getBoundingClientRect().top <= triggerPoint) activeId = id;
+      });
+      setActiveTab(activeId);
+    }
+
+    const tabObserver = new IntersectionObserver(() => updateActiveTab(), { threshold: [0.1, 0.4, 0.6], rootMargin: '-80px 0px 0px 0px' });
+    sectionIds.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) tabObserver.observe(el);
+    });
+    updateActiveTab();
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const href = tab.getAttribute('href');
+        const id = href ? href.slice(1) : '';
+        setActiveTab(id);
+      });
+    });
+
+    // 4. SCROLL REVEAL
+    const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+  </script>
+</body>
+</html>

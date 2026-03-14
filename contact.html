@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/images/logo/Altron-Logo.svg">
+  <meta name="description" content="Contact Altron Cast Pvt. Ltd. for precision die casting enquiries. Reach our team for automotive and non-automotive die cast component requirements.">
+  <meta name="author" content="Altron Cast Pvt. Ltd.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://altroncast.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Altron Cast Pvt. Ltd.">
+  <meta property="og:url" content="https://altroncast.com/contact.html">
+  <meta property="og:title" content="Contact Us | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar">
+  <meta property="og:description" content="Contact Altron Cast Pvt. Ltd. for precision die casting enquiries. Reach our team for automotive and non-automotive die cast component requirements.">
+  <meta property="og:image" content="https://altroncast.com/assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact Us | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar">
+  <meta name="twitter:description" content="Contact Altron Cast Pvt. Ltd. for precision die casting enquiries. Reach our team for automotive and non-automotive die cast component requirements.">
+  <meta name="twitter:image" content="https://altroncast.com/assets/images/og-image.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#F97316',
+            dark: '#0F172A',
+            steel: '#1E293B',
+            panel: '#1F2937',
+            muted: '#94A3B8'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Barlow Condensed', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .dropdown-content {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: visibility 0.2s, opacity 0.2s, transform 0.2s;
+    }
+    .dropdown:hover .dropdown-content {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-dark text-white font-sans antialiased">
+  <!-- ========== STICKY NAVBAR (COPIED FROM index.html) ========== -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="index.html">
+          <img src="assets/images/logo/Altron-Logo.svg" alt="Altron Cast Pvt. Ltd." class="h-12 w-auto">
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="text-sm text-white hover:text-brand transition">Home</a>
+          <div class="dropdown relative">
+            <a href="about.html#overview" class="text-sm text-white hover:text-brand transition inline-flex items-center">About ▾</a>
+            <div class="dropdown-content absolute top-full left-0 mt-2 w-56 py-2 bg-panel rounded-lg shadow-xl border border-steel">
+              <a href="about.html#overview" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Overview</a>
+              <a href="about.html#milestones" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Milestones</a>
+              <a href="about.html#growth" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Growth & Targets</a>
+              <a href="about.html#expansion" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Expansion Plan</a>
+            </div>
+          </div>
+          <a href="products.html#products" class="text-sm text-white hover:text-brand transition">Products</a>
+          <a href="index.html#why-us" class="text-sm text-white hover:text-brand transition">R&D & Quality</a>
+          <a href="index.html#why-us" class="text-sm text-white hover:text-brand transition">Specialization</a>
+          <a href="index.html#clients" class="text-sm text-white hover:text-brand transition">Clients</a>
+          <a href="#contact" class="text-sm text-white hover:text-brand transition">Contact</a>
+        </div>
+
+        <!-- CTA Button (Desktop) -->
+        <a href="tel:+919958007665" class="hidden lg:inline-flex items-center px-4 py-2 bg-brand text-white text-sm font-medium rounded-md hover:bg-orange-600 transition">
+          📞 +91 99580 07665
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button id="hamburger" class="lg:hidden p-2 text-white hover:text-brand transition" aria-label="Open menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="lg:hidden fixed inset-x-0 top-20 bg-dark/98 shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out z-40 overflow-y-auto">
+      <div class="py-6 px-4 space-y-2">
+        <a href="index.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Home</a>
+        <div class="py-3 px-4">
+          <span class="text-brand font-semibold text-sm">About</span>
+          <a href="about.html#overview" class="block py-2 pl-4 text-white hover:text-brand transition">Overview</a>
+          <a href="about.html#milestones" class="block py-2 pl-4 text-white hover:text-brand transition">Milestones</a>
+          <a href="about.html#growth" class="block py-2 pl-4 text-white hover:text-brand transition">Growth & Targets</a>
+          <a href="about.html#expansion" class="block py-2 pl-4 text-white hover:text-brand transition">Expansion Plan</a>
+        </div>
+        <a href="products.html#products" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Products</a>
+        <a href="index.html#why-us" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">R&D & Quality</a>
+        <a href="index.html#why-us" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Specialization</a>
+        <a href="index.html#clients" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Clients</a>
+        <a href="#contact" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Contact</a>
+        <a href="tel:+919958007665" class="block py-3 px-4 text-brand font-medium">📞 +91 99580 07665</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-32">
+    <!-- ========== PAGE HERO ========== -->
+    <section class="relative h-72 flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-dark via-steel to-dark"></div>
+      <div class="absolute inset-0 opacity-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <pattern id="hex-grid" width="60" height="52" patternUnits="userSpaceOnUse">
+              <path d="M30 0v26M0 13h30M0 13v26h30V13M30 26v26h30V26" fill="none" stroke="white" stroke-width="0.5" opacity="0.5"/>
+              <path d="M30 0l15 13v26l-15 13-15-13V13z" fill="none" stroke="white" stroke-width="0.3" opacity="0.3"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hex-grid)"/>
+        </svg>
+      </div>
+      <div class="relative z-10 text-center px-4">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-2">GET IN TOUCH</p>
+        <h1 class="font-heading font-bold text-5xl mb-4">Let's Build Something Together</h1>
+        <p class="text-muted text-base mb-4 max-w-2xl mx-auto">Reach out with your requirements and our team will respond within 24 hours.</p>
+        <p class="text-muted text-sm">Home / Contact Us</p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 1: CONTACT LAYOUT ========== -->
+    <section id="contact" class="py-20 px-4 bg-dark reveal">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-5 gap-12 items-start">
+          <!-- LEFT: CONTACT FORM (3/5) -->
+          <div class="lg:col-span-3">
+            <div id="form-wrapper" class="bg-panel rounded-2xl p-8 md:p-10">
+              <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-2">SEND US A MESSAGE</p>
+              <h2 class="font-heading font-bold text-2xl text-white mb-3">Tell Us About Your Requirement</h2>
+              <p class="text-muted text-sm mb-8">
+                Fill in the form below and one of our engineers will get back to you shortly.
+              </p>
+
+              <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form" class="space-y-6">
+                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="bot-field" class="hidden" />
+
+                <!-- Row 1: Name + Company -->
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label for="name" class="text-white text-sm font-medium mb-1 block">Full Name *</label>
+                    <input
+                      id="name"
+                      type="text"
+                      name="name"
+                      required
+                      placeholder="e.g. Rajesh Kumar"
+                      class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                    />
+                  </div>
+                  <div>
+                    <label for="company" class="text-white text-sm font-medium mb-1 block">Company Name *</label>
+                    <input
+                      id="company"
+                      type="text"
+                      name="company"
+                      required
+                      placeholder="e.g. Maruti Suzuki Ltd."
+                      class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                    />
+                  </div>
+                </div>
+
+                <!-- Row 2: Email + Phone -->
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label for="email" class="text-white text-sm font-medium mb-1 block">Email Address *</label>
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      required
+                      placeholder="you@company.com"
+                      class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                    />
+                  </div>
+                  <div>
+                    <label for="phone" class="text-white text-sm font-medium mb-1 block">Phone Number *</label>
+                    <input
+                      id="phone"
+                      type="tel"
+                      name="phone"
+                      required
+                      placeholder="+91 98765 43210"
+                      class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                    />
+                  </div>
+                </div>
+
+                <!-- Row 3: Product / Area of Interest -->
+                <div>
+                  <label for="product" class="text-white text-sm font-medium mb-1 block">Product / Area of Interest</label>
+                  <select
+                    id="product"
+                    name="product"
+                    class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                  >
+                    <option disabled selected value="">Select a product or area...</option>
+                    <option>Automotive Components</option>
+                    <option>Non-Automotive Components</option>
+                    <option>Upcoming / EV Components</option>
+                    <option>Custom Component Requirement</option>
+                    <option>General Enquiry</option>
+                    <option>Partnership / Vendor Enquiry</option>
+                  </select>
+                </div>
+
+                <!-- Row 4: Message -->
+                <div>
+                  <label for="message" class="text-white text-sm font-medium mb-1 block">Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    placeholder="Describe your requirement — materials, quantities, tolerances, application, timeline..."
+                    class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                  ></textarea>
+                </div>
+
+                <!-- Row 5: How did you hear about us? -->
+                <div>
+                  <label for="source" class="text-white text-sm font-medium mb-1 block">How did you hear about us?</label>
+                  <select
+                    id="source"
+                    name="source"
+                    class="w-full bg-steel border border-[#2D3748] rounded-lg px-4 py-3 text-white text-sm placeholder-muted focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition"
+                  >
+                    <option>Select an option...</option>
+                    <option>Google Search</option>
+                    <option>Referral / Word of Mouth</option>
+                    <option>LinkedIn</option>
+                    <option>Industry Event</option>
+                    <option>Existing Client</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <!-- Error Bar -->
+                <div id="form-error" class="hidden bg-red-900/30 border border-red-500 rounded-lg p-4 text-red-400 text-sm">
+                  Something went wrong. Please try again or contact us directly at <span class="underline">info@altroncast.com</span>.
+                </div>
+
+                <!-- Consent + Submit -->
+                <div class="space-y-4">
+                  <label class="flex items-center text-muted text-sm">
+                    <input type="checkbox" name="consent" required class="mr-2 accent-orange-500">
+                    <span>I agree to be contacted by Altron Cast regarding my enquiry.</span>
+                  </label>
+
+                  <button
+                    type="submit"
+                    class="w-full mt-2 bg-brand hover:bg-orange-600 text-white font-semibold py-4 rounded-lg transition text-base tracking-wide font-heading text-lg flex items-center justify-center"
+                  >
+                    Send Enquiry →
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Success State -->
+            <div id="success-state" class="hidden bg-panel rounded-2xl p-10 text-center mt-0">
+              <svg class="w-16 h-16 mx-auto text-green-400 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <h2 class="font-heading font-bold text-2xl text-white mb-4">Enquiry Received!</h2>
+              <p class="text-muted mb-6">
+                Thank you for reaching out. One of our team members will contact you within 24 hours.
+              </p>
+              <button id="another-enquiry" class="text-brand hover:text-orange-400 text-sm font-medium">
+                ← Send Another Enquiry
+              </button>
+            </div>
+          </div>
+
+          <!-- RIGHT: INFO PANEL + MAP (2/5) -->
+          <div class="lg:col-span-2 space-y-6">
+            <!-- Contact Details Card -->
+            <div class="bg-panel rounded-2xl p-8">
+              <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-2">REACH US</p>
+              <h3 class="font-heading font-bold text-xl text-white mb-4">Contact Information</h3>
+
+              <div class="divide-y divide-steel">
+                <!-- Email -->
+                <div class="flex items-start gap-4 py-4">
+                  <div class="w-10 h-10 rounded-full bg-brand/20 flex items-center justify-center text-brand flex-shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16a2 2 0 012 2v0.01L12 13 2 6.01V6a2 2 0 012-2z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 8l-10 7L2 8"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-muted text-xs uppercase tracking-wide">Email Us</p>
+                    <a href="mailto:info@altroncast.com" class="text-white hover:text-brand transition text-sm">
+                      info@altroncast.com
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Office Phone -->
+                <div class="flex items-start gap-4 py-4">
+                  <div class="w-10 h-10 rounded-full bg-brand/20 flex items-center justify-center text-brand flex-shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h2l2 4-2 1a11 11 0 005 5l1-2 4 2v2a2 2 0 01-2 2h-1C8.82 17 3 11.18 3 4V5z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-muted text-xs uppercase tracking-wide">Office</p>
+                    <a href="tel:+911244388400" class="text-white hover:text-brand transition text-sm">
+                      +91 124 438 8400
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Mobile / WhatsApp -->
+                <div class="flex items-start gap-4 py-4">
+                  <div class="w-10 h-10 rounded-full bg-brand/20 flex items-center justify-center text-brand flex-shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h1l3 5-1 2a11 11 0 005 5l2-1 3 3v1a2 2 0 01-2 2h-1C8.82 20 4 15.18 4 9V5z"/>
+                    </svg>
+                  </div>
+                  <div class="flex-1">
+                    <p class="text-muted text-xs uppercase tracking-wide">Mobile / WhatsApp</p>
+                    <div class="flex items-center gap-3 flex-wrap">
+                      <a href="tel:+919958007665" class="text-white hover:text-brand transition text-sm">
+                        +91 99580 07665
+                      </a>
+                      <a
+                        href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20your%20products."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center"
+                        aria-label="Chat on WhatsApp"
+                      >
+                        <svg class="w-5 h-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                          <path fill="#25D366" d="M16.04 3C9.422 3 4.04 8.382 4.04 15c0 2.395.664 4.626 1.93 6.61L4 29l7.58-1.94A11.88 11.88 0 0 0 16.04 27c6.617 0 12-5.382 12-12s-5.383-12-12-12z"/>
+                          <path fill="#fff" d="M23.002 19.158c-.35-.175-2.074-1.026-2.396-1.143-.323-.117-.558-.175-.793.175-.234.35-.91 1.142-1.117 1.376-.206.234-.411.263-.761.088-.35-.175-1.48-.545-2.82-1.738-1.042-.93-1.744-2.08-1.949-2.43-.206-.35-.022-.54.153-.715.157-.156.35-.406.525-.609.175-.204.234-.35.35-.585.117-.234.058-.439-.029-.614-.088-.175-.792-1.912-1.085-2.619-.285-.686-.576-.593-.793-.604l-.676-.012c-.234 0-.616.088-.938.439-.323.35-1.23 1.2-1.23 2.925 0 1.726 1.26 3.392 1.437 3.627.175.234 2.484 3.8 6.016 5.168.841.331 1.497.529 2.008.677.843.24 1.61.206 2.217.125.676-.101 2.074-.848 2.367-1.667.292-.819.292-1.52.205-1.667-.088-.146-.322-.234-.672-.409z"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Address -->
+                <div class="flex items-start gap-4 py-4">
+                  <div class="w-10 h-10 rounded-full bg-brand/20 flex items-center justify-center text-brand flex-shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11a3 3 0 100-6 3 3 0 000 6z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21s-6-4.35-6-10a6 6 0 1112 0c0 5.65-6 10-6 10z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-muted text-xs uppercase tracking-wide">Factory & Office</p>
+                    <p class="text-white text-sm">
+                      Plot No. 84, Sector – 5, Phase – I,<br>
+                      IMT Manesar, Gurugram, H.R. 122051
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Hours Card -->
+            <div class="bg-panel rounded-2xl p-8">
+              <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-2">AVAILABILITY</p>
+              <h3 class="font-heading font-bold text-xl text-white mb-4">Business Hours</h3>
+
+              <div class="divide-y divide-steel text-sm">
+                <div class="flex items-center justify-between py-2">
+                  <span class="text-white">Monday – Friday</span>
+                  <span class="text-muted">9:00 AM – 6:00 PM</span>
+                </div>
+                <div class="flex items-center justify-between py-2">
+                  <span class="text-white">Saturday</span>
+                  <span class="text-muted">9:00 AM – 2:00 PM</span>
+                </div>
+                <div class="flex items-center justify-between py-2">
+                  <span class="text-white">Sunday</span>
+                  <span class="text-red-400">Closed</span>
+                </div>
+              </div>
+
+              <p class="text-muted text-xs italic mt-4">
+                For urgent requirements, reach us on WhatsApp anytime.
+              </p>
+            </div>
+
+            <!-- Map -->
+            <div class="rounded-2xl overflow-hidden h-64 bg-steel">
+              <iframe
+                src="https://www.google.com/maps?q=IMT+Manesar+Sector+5+Gurugram+Haryana&output=embed&z=15"
+                width="100%"
+                height="256"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="rounded-2xl w-full h-full"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: QUICK CONNECT STRIP ========== -->
+    <section id="quick-connect" class="py-16 px-4 bg-steel reveal">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-10">
+          <h2 class="font-heading font-bold text-3xl text-white mb-3">Prefer to Connect Directly?</h2>
+          <p class="text-muted text-sm">Choose the fastest way to reach our team.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Call Us -->
+          <div class="bg-panel rounded-2xl p-8 text-center hover:border hover:border-brand transition-colors">
+            <div class="w-14 h-14 mx-auto rounded-full bg-brand/20 flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h2l2 4-2 1a11 11 0 005 5l1-2 4 2v2a2 2 0 01-2 2h-1C8.82 17 3 11.18 3 4V5z"/>
+              </svg>
+            </div>
+            <h3 class="text-white font-semibold mb-1">Call Our Office</h3>
+            <p class="text-brand font-heading text-xl">+91 124 438 8400</p>
+            <p class="text-muted text-sm mt-2">Mon–Fri, 9 AM – 6 PM</p>
+            <a
+              href="tel:911244388400"
+              class="block border border-brand text-brand rounded-md px-4 py-2 hover:bg-brand hover:text-white transition w-full mt-4 text-sm font-medium"
+            >
+              Call Now →
+            </a>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="bg-panel rounded-2xl p-8 text-center hover:border hover:border-brand transition-colors">
+            <div class="w-14 h-14 mx-auto rounded-full flex items-center justify-center mb-4" style="background-color:#25D366;">
+              <svg class="w-7 h-7 text-white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.04 3C9.422 3 4.04 8.382 4.04 15c0 2.395.664 4.626 1.93 6.61L4 29l7.58-1.94A11.88 11.88 0 0 0 16.04 27c6.617 0 12-5.382 12-12s-5.383-12-12-12zM16 24.2h-.006a8.18 8.18 0 0 1-4.166-1.141l-.299-.177-3.113.797.832-3.041-.193-.32A8.14 8.14 0 0 1 7.8 15c0-4.53 3.683-8.213 8.214-8.213 2.196 0 4.259.855 5.813 2.41A8.16 8.16 0 0 1 24.24 15c-.003 4.53-3.686 8.2-8.24 8.2zm4.002-6.842c-.219-.11-1.296-.64-1.498-.713-.202-.074-.35-.11-.498.11-.147.219-.57.713-.698.861-.128.147-.257.165-.476.055-.219-.11-.933-.369-1.777-1.131-.658-.593-1.111-1.318-1.242-1.534-.128-.219-.014-.335.096-.459.099-.098.219-.257.328-.385.11-.128.165-.22.247-.366.083-.147.041-.275-.02-.385-.061-.11-.498-1.2-.68-1.646-.179-.456-.36-.394-.498-.401l-.425-.007c-.147 0-.384.055-.584.275-.2.22-.907.886-.907 2.159 0 1.274.929 2.506 1.059 2.682.128.174 1.83 2.793 4.431 3.83.62.256 1.104.408 1.481.523.622.198 1.188.17 1.635.103.499-.074 1.296-.548 1.48-1.055.183-.508.183-.949.128-1.04-.055-.092-.201-.147-.42-.256z" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="text-white font-semibold mb-1">Chat on WhatsApp</h3>
+            <p class="text-green-400 font-heading text-xl">+91 99580 07665</p>
+            <p class="text-muted text-sm mt-2">Quick responses, any time</p>
+            <a
+              href="https://wa.me/919958007665?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20Altron%20Cast%20products."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block rounded-md px-4 py-2 hover:bg-green-600 transition w-full mt-4 text-sm font-medium text-white"
+              style="background-color:#25D366;"
+            >
+              Open WhatsApp →
+            </a>
+          </div>
+
+          <!-- Email -->
+          <div class="bg-panel rounded-2xl p-8 text-center hover:border hover:border-brand transition-colors">
+            <div class="w-14 h-14 mx-auto rounded-full bg-brand/20 flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h16a2 2 0 012 2v0.01L12 13 2 6.01V6a2 2 0 012-2z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 8l-10 7L2 8"/>
+              </svg>
+            </div>
+            <h3 class="text-white font-semibold mb-1">Email Us</h3>
+            <p class="text-brand font-heading text-xl">info@altroncast.com</p>
+            <p class="text-muted text-sm mt-2">We reply within 24 hours</p>
+            <a
+              href="mailto:info@altroncast.com"
+              class="block border border-brand text-brand rounded-md px-4 py-2 hover:bg-brand hover:text-white transition w-full mt-4 text-sm font-medium"
+            >
+              Send Email →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MINI CTA SECTION (MATCHING OTHER PAGES) ========== -->
+    <section class="py-20 px-4 bg-gradient-to-r from-brand to-orange-700 reveal">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="font-heading font-bold text-4xl text-white mb-6">Explore Our Products While You Wait for a Response</h2>
+        <p class="text-white/80 text-lg mb-10">
+          Browse our full range of automotive and non-automotive die cast components.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="products.html#products"
+            class="inline-flex items-center justify-center px-8 py-3 bg-white text-dark font-medium rounded-md hover:bg-gray-100 transition"
+          >
+            View Products →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER (COPIED FROM index.html) ========== -->
+    <footer class="bg-[#0A0F1E] py-16 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          <!-- Col 1: Brand -->
+          <div>
+            <img src="assets/images/logo/Altron-Logo.svg" alt="Altron Cast Pvt. Ltd." class="h-10 w-auto mb-3">
+            <p class="text-muted italic text-sm mb-4">Casting with Passion.</p>
+            <div class="flex gap-4">
+              <a href="#" class="text-muted hover:text-brand transition" aria-label="LinkedIn">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" class="text-muted hover:text-brand transition" aria-label="YouTube">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20Altron%20Cast%20products." target="_blank" rel="noopener noreferrer" class="text-muted hover:text-brand transition" aria-label="WhatsApp">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </div>
+          <!-- Col 2: Quick Links -->
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="text-muted hover:text-white transition">Home</a></li>
+              <li><a href="about.html#overview" class="text-muted hover:text-white transition">About Us</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Products</a></li>
+              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">Specialization</a></li>
+              <li><a href="index.html#clients" class="text-muted hover:text-white transition">Clients</a></li>
+              <li><a href="#contact" class="text-muted hover:text-white transition">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- Col 3: Products -->
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Products</h4>
+            <ul class="space-y-2">
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Automotive Components</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Non-Automotive Components</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Upcoming Products</a></li>
+              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+            </ul>
+          </div>
+          <!-- Col 4: Reach Us -->
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Reach Us</h4>
+            <ul class="space-y-3 text-muted text-sm">
+              <li><a href="mailto:info@altroncast.com" class="hover:text-white transition flex items-start gap-2">📧 info@altroncast.com</a></li>
+              <li><a href="tel:+919958007665" class="hover:text-white transition flex items-start gap-2">📞 +91 99580 07665</a></li>
+              <li><a href="tel:+911244388400" class="hover:text-white transition flex items-start gap-2">📞 +91 124 438 8400</a></li>
+              <li class="flex items-start gap-2">📍 Plot No. 84, Sector – 5, Phase – I, IMT Manesar, Gurugram, H.R. 122051</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-steel py-4 text-center">
+          <p class="text-muted text-sm">© 2025 Altron Cast Pvt. Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- WHATSAPP FLOATING BUTTON (SHARED ACROSS PAGES) -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <div class="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-30"></div>
+    <a
+      href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20Altron%20Cast%20products."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="relative w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg class="w-7 h-7 text-white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.04 3C9.422 3 4.04 8.382 4.04 15c0 2.395.664 4.626 1.93 6.61L4 29l7.58-1.94A11.88 11.88 0 0 0 16.04 27c6.617 0 12-5.382 12-12s-5.383-12-12-12zM16 24.2h-.006a8.18 8.18 0 0 1-4.166-1.141l-.299-.177-3.113.797.832-3.041-.193-.32A8.14 8.14 0 0 1 7.8 15c0-4.53 3.683-8.213 8.214-8.213 2.196 0 4.259.855 5.813 2.41A8.16 8.16 0 0 1 24.24 15c-.003 4.53-3.686 8.2-8.24 8.2zm4.002-6.842c-.219-.11-1.296-.64-1.498-.713-.202-.074-.35-.11-.498.11-.147.219-.57.713-.698.861-.128.147-.257.165-.476.055-.219-.11-.933-.369-1.777-1.131-.658-.593-1.111-1.318-1.242-1.534-.128-.219-.014-.335.096-.459.099-.098.219-.257.328-.385.11-.128.165-.22.247-.366.083-.147.041-.275-.02-.385-.061-.11-.498-1.2-.68-1.646-.179-.456-.36-.394-.498-.401l-.425-.007c-.147 0-.384.055-.584.275-.2.22-.907.886-.907 2.159 0 1.274.929 2.506 1.059 2.682.128.174 1.83 2.793 4.431 3.83.62.256 1.104.408 1.481.523.622.198 1.188.17 1.635.103.499-.074 1.296-.548 1.48-1.055.183-.508.183-.949.128-1.04-.055-.092-.201-.147-.42-.256z" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
+
+  <script>
+    // 1. STICKY NAV - Scroll-based background
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (!nav) return;
+      nav.classList.toggle('bg-[#0F172A]', window.scrollY > 80);
+      nav.classList.toggle('shadow-lg', window.scrollY > 80);
+    });
+
+    // 2. MOBILE MENU TOGGLE
+    const hamburger = document.getElementById('hamburger');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    let drawerOpen = false;
+
+    if (hamburger && mobileDrawer) {
+      hamburger.addEventListener('click', () => {
+        drawerOpen = !drawerOpen;
+        mobileDrawer.classList.toggle('-translate-y-full', !drawerOpen);
+        mobileDrawer.classList.toggle('translate-y-0', drawerOpen);
+        hamburger.setAttribute('aria-label', drawerOpen ? 'Close menu' : 'Open menu');
+      });
+
+      mobileDrawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          drawerOpen = false;
+          mobileDrawer.classList.add('-translate-y-full');
+          mobileDrawer.classList.remove('translate-y-0');
+        });
+      });
+    }
+
+    // 3. SCROLL REVEAL
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 4. FORM: AUTO-SELECT PRODUCT + SUCCESS FROM URL
+    window.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const productParam = params.get('product');
+      if (productParam) {
+        const select = document.querySelector('select[name="product"]');
+        if (select) {
+          const options = Array.from(select.options);
+          const normalized = productParam.toLowerCase().replace(/\+/g, ' ');
+          const match = options.find(o =>
+            o.text.toLowerCase().includes(normalized)
+          );
+          if (match) {
+            match.selected = true;
+          }
+        }
+      }
+
+      if (params.get('success') === 'true') {
+        const formWrapper = document.getElementById('form-wrapper');
+        const successState = document.getElementById('success-state');
+        if (formWrapper && successState) {
+          formWrapper.classList.add('hidden');
+          successState.classList.remove('hidden');
+        }
+      }
+    });
+
+    // 5. FORM SUBMISSION (AJAX / FETCH for Netlify Forms)
+    const form = document.getElementById('contact-form');
+    if (form) {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const errorBar = document.getElementById('form-error');
+        if (errorBar) errorBar.classList.add('hidden');
+
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = '<svg class="animate-spin w-5 h-5 inline mr-2" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path></svg>Sending...';
+        }
+
+        try {
+          const formData = new FormData(form);
+          const response = await fetch('/', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams(formData).toString()
+          });
+
+          if (response.ok) {
+            const formWrapper = document.getElementById('form-wrapper');
+            const successState = document.getElementById('success-state');
+            if (formWrapper && successState) {
+              formWrapper.classList.add('hidden');
+              successState.classList.remove('hidden');
+            }
+            form.reset();
+          } else {
+            throw new Error('Submission failed');
+          }
+        } catch (err) {
+          const errorBarInner = document.getElementById('form-error');
+          if (errorBarInner) errorBarInner.classList.remove('hidden');
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = 'Send Enquiry →';
+          }
+        }
+      });
+    }
+
+    // 6. RESET FORM FROM SUCCESS STATE
+    const anotherBtn = document.getElementById('another-enquiry');
+    if (anotherBtn) {
+      anotherBtn.addEventListener('click', () => {
+        const formWrapper = document.getElementById('form-wrapper');
+        const successState = document.getElementById('success-state');
+        const form = document.getElementById('contact-form');
+        const errorBar = document.getElementById('form-error');
+        const submitBtn = form ? form.querySelector('button[type="submit"]') : null;
+
+        if (formWrapper && successState) {
+          successState.classList.add('hidden');
+          formWrapper.classList.remove('hidden');
+        }
+        if (form) form.reset();
+        if (errorBar) errorBar.classList.add('hidden');
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Enquiry →';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+
