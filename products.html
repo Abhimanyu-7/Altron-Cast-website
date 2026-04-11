@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar</title>
-  <link rel="icon" type="image/svg+xml" href="/assets/images/logo/Altron-Logo.svg">
+  <link rel="icon" href="assets/favicon-pack/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-pack/favicon_16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-pack/favicon_32x32.png">
+  <link rel="apple-touch-icon" href="assets/favicon-pack/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-pack/android-chrome-192x192.png">
   <meta name="description" content="Altron Cast - Precision die-cast components for automotive and industrial applications. Aluminium gravity die casting.">
   <meta name="author" content="Altron Cast Pvt. Ltd.">
   <meta name="robots" content="index, follow">
@@ -68,6 +72,17 @@
     }
     .scrollbar-hide::-webkit-scrollbar { display: none; }
     .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    .product-card .product-img {
+      width: 100%;
+      height: 130%;
+      object-fit: cover;
+      object-position: center 30%;
+      transition: transform 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
+      will-change: transform;
+    }
+    .product-card:hover .product-img {
+      transform: translateY(-23%);
+    }
     .toast-enter { animation: toastIn 0.3s ease forwards; }
     .toast-exit { animation: toastOut 0.3s ease forwards; }
     @keyframes toastIn {
@@ -100,8 +115,9 @@
             </div>
           </div>
           <a href="products.html#products" class="text-sm text-white hover:text-brand transition">Products</a>
-          <a href="index.html#why-us" class="text-sm text-white hover:text-brand transition">R&D & Quality</a>
-          <a href="index.html#why-us" class="text-sm text-white hover:text-brand transition">Specialization</a>
+          <!-- CHANGE: Updated nav links to point to quality.html -->
+          <a href="quality.html" class="text-sm text-white hover:text-brand transition">R&D & Quality</a>
+          <a href="quality.html#capabilities" class="text-sm text-white hover:text-brand transition">Specialization</a>
           <a href="index.html#clients" class="text-sm text-white hover:text-brand transition">Clients</a>
           <a href="contact.html" class="text-sm text-white hover:text-brand transition">Contact</a>
         </div>
@@ -126,8 +142,9 @@
           <a href="about.html#expansion" class="block py-2 pl-4 text-white hover:text-brand transition">Expansion Plan</a>
         </div>
         <a href="products.html#products" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Products</a>
-        <a href="index.html#why-us" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">R&D & Quality</a>
-        <a href="index.html#why-us" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Specialization</a>
+        <!-- CHANGE: Updated mobile nav links to point to quality.html -->
+        <a href="quality.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">R&D & Quality</a>
+        <a href="quality.html#capabilities" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Specialization</a>
         <a href="index.html#clients" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Clients</a>
         <a href="contact.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Contact</a>
         <a href="tel:+919958007665" class="block py-3 px-4 text-brand font-medium">📞 +91 99580 07665</a>
@@ -167,7 +184,8 @@
           <button data-filter="non-automotive" aria-pressed="false" class="filter-btn flex-shrink-0 text-muted hover:text-white px-5 py-2 rounded-md hover:bg-panel transition text-sm">Non-Automotive</button>
           <button data-filter="upcoming" aria-pressed="false" class="filter-btn flex-shrink-0 text-muted hover:text-white px-5 py-2 rounded-md hover:bg-panel transition text-sm">Upcoming</button>
         </div>
-        <p id="result-count" class="text-muted text-sm mt-3 text-center">Showing 13 products</p>
+        <!-- CHANGE: Updated product count from 13 to 11 (removed 2 zinc products) -->
+        <p id="result-count" class="text-muted text-sm mt-3 text-center">Showing 9 products</p>
       </div>
     </div>
 
@@ -179,19 +197,19 @@
         <p class="text-muted text-center mb-16 max-w-2xl mx-auto">Every component we produce undergoes rigorous quality checks before it leaves our facility.</p>
 
         <div class="grid md:grid-cols-3 gap-8">
-          <!-- Automotive Products 1-6 -->
+          <!-- Automotive Products -->
           <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
             <div class="relative aspect-video bg-steel overflow-hidden">
               <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
-              <img src="assets/images/products/Engine-Mount-Bracket.webp" alt="Engine Mounting Bracket - Precision Aluminium Die Cast Component" class="w-full h-full object-cover">
+              <img src="assets/images/products/Top-Mount-Bracket.webp" alt="Top Mount Bracket - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Engine Mounting Bracket</h3>
+              <h3 class="font-heading font-bold text-xl text-white">Top Mount Bracket</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">High-strength aluminium bracket designed for engine mounting systems in passenger and commercial vehicles.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Precision-cast top mount bracket engineered for secure engine mounting with dimensional accuracy and vibration dampening.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🚗 Passenger Vehicles</span>
-                <a href="contact.html?product=Engine+Mounting+Bracket" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🚗 Engine Mounting</span>
+                <a href="contact.html?product=Top+Mount+Bracket" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
@@ -199,50 +217,15 @@
           <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
             <div class="relative aspect-video bg-steel overflow-hidden">
               <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
-              <img src="assets/images/products/Housing-Bracket.webp" alt="Gearbox Housing - Precision Aluminium Die Cast Component" class="w-full h-full object-cover">
+              <img src="assets/images/products/FCOV-Body.webp" alt="FCOV Body - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Gearbox Housing</h3>
+              <h3 class="font-heading font-bold text-xl text-white">FCOV Body</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Precision-cast gearbox housing engineered for dimensional accuracy and thermal performance.</p>
-              <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🚗 Automotive Drivetrain</span>
-                <a href="contact.html?product=Gearbox+Housing" class="text-brand text-sm hover:underline">Enquire →</a>
-              </div>
-            </div>
-          </article>
-
-          <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel overflow-hidden">
-              <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
-              <img src="assets/images/products/FCV.webp" alt="Oil Pump Cover - Precision Aluminium Die Cast Component" class="w-full h-full object-cover">
-            </div>
-            <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Oil Pump Cover</h3>
-              <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Lightweight and durable oil pump cover with tight tolerance casting for sealing integrity.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Flow control valve body cast with tight tolerances for reliable fluid management in automotive systems.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
                 <span class="text-muted text-xs">🚗 Engine Systems</span>
-                <a href="contact.html?product=Oil+Pump+Cover" class="text-brand text-sm hover:underline">Enquire →</a>
-              </div>
-            </div>
-          </article>
-
-          <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
-              <div class="text-center">
-                <svg class="w-8 h-8 mx-auto text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span class="text-slate-500 text-xs mt-2 block">Image Coming Soon</span>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Clutch Housing</h3>
-              <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Structurally robust clutch housing cast to meet OEM-grade specifications and load requirements.</p>
-              <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🚗 Transmission Systems</span>
-                <a href="contact.html?product=Clutch+Housing" class="text-brand text-sm hover:underline">Enquire →</a>
+                <a href="contact.html?product=FCOV+Body" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
@@ -250,175 +233,113 @@
           <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
             <div class="relative aspect-video bg-steel overflow-hidden">
               <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
-              <img src="assets/images/products/Rear-Engine-Mount-Bracket.webp" alt="Suspension Component - Precision Aluminium Die Cast Component" class="w-full h-full object-cover">
+              <img src="assets/images/products/EGR-Flange-ZD30.webp" alt="EGR Flange ZD30 - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Suspension Component</h3>
+              <h3 class="font-heading font-bold text-xl text-white">EGR Flange ZD30</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Lightweight suspension part designed to reduce unsprung mass while maintaining structural integrity.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Exhaust gas recirculation flange designed for ZD30 diesel engines — precision-cast for thermal and sealing performance.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🚗 Chassis & Suspension</span>
-                <a href="contact.html?product=Suspension+Component" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🚗 Exhaust Systems</span>
+                <a href="contact.html?product=EGR+Flange+ZD30" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
 
           <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
-              <div class="text-center">
-                <svg class="w-8 h-8 mx-auto text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span class="text-slate-500 text-xs mt-2 block">Image Coming Soon</span>
-              </div>
+            <div class="relative aspect-video bg-steel overflow-hidden">
+              <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
+              <img src="assets/images/products/Aluminium-Housing.webp" alt="Aluminium Housing - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Intake Manifold Component</h3>
+              <h3 class="font-heading font-bold text-xl text-white">Aluminium Housing</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Precision cast manifold part optimized for airflow performance and heat resistance.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Multi-purpose aluminium housing with complex geometry — cast for structural integrity and precision fitment.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🚗 Engine Systems</span>
-                <a href="contact.html?product=Intake+Manifold+Component" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🚗 Automotive Assemblies</span>
+                <a href="contact.html?product=Aluminium+Housing" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
 
-          <!-- Non-Automotive Products 7-10 -->
-          <article data-category="non-automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-blue-600 text-white text-xs px-3 py-1">Non-Automotive</span>
-              <div class="text-center">
-                <svg class="w-8 h-8 mx-auto text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span class="text-slate-500 text-xs mt-2 block">Image Coming Soon</span>
-              </div>
+          <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
+            <div class="relative aspect-video bg-steel overflow-hidden">
+              <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
+              <img src="assets/images/products/Gearbox-Bracket.webp" alt="Gearbox Bracket - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Industrial Pump Housing</h3>
+              <h3 class="font-heading font-bold text-xl text-white">Gearbox Bracket</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Heavy-duty pump housing for industrial fluid management systems, cast for pressure integrity.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Structural gearbox mounting bracket engineered for load distribution and drivetrain alignment in commercial vehicles.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🏭 Industrial Machinery</span>
-                <a href="contact.html?product=Industrial+Pump+Housing" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🚗 Drivetrain</span>
+                <a href="contact.html?product=Gearbox+Bracket" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
 
-          <article data-category="non-automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-blue-600 text-white text-xs px-3 py-1">Non-Automotive</span>
-              <div class="text-center">
-                <svg class="w-8 h-8 mx-auto text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span class="text-slate-500 text-xs mt-2 block">Image Coming Soon</span>
-              </div>
+          <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
+            <div class="relative aspect-video bg-steel overflow-hidden">
+              <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
+              <img src="assets/images/products/Turbo-Duct.webp" alt="Turbo Duct - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Electrical Enclosure</h3>
-              <p class="text-brand text-xs uppercase tracking-wide mt-1">Zinc Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Precision zinc enclosure for electrical components, offering excellent EMI shielding and dimensional accuracy.</p>
-              <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">⚡ Electrical & Electronics</span>
-                <a href="contact.html?product=Electrical+Enclosure" class="text-brand text-sm hover:underline">Enquire →</a>
-              </div>
-            </div>
-          </article>
-
-          <article data-category="non-automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-blue-600 text-white text-xs px-3 py-1">Non-Automotive</span>
-              <div class="text-center">
-                <svg class="w-8 h-8 mx-auto text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span class="text-slate-500 text-xs mt-2 block">Image Coming Soon</span>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Hydraulic Valve Body</h3>
+              <h3 class="font-heading font-bold text-xl text-white">Turbo Duct</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Complex multi-port valve body with tight internal channel tolerances for hydraulic systems.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Turbocharger ducting component cast for optimal airflow, pressure retention, and thermal resilience in forced-induction systems.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🏭 Hydraulics</span>
-                <a href="contact.html?product=Hydraulic+Valve+Body" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🚗 Turbo Systems</span>
+                <a href="contact.html?product=Turbo+Duct" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
 
-          <article data-category="non-automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-blue-600 text-white text-xs px-3 py-1">Non-Automotive</span>
-              <div class="text-center">
-                <svg class="w-8 h-8 mx-auto text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span class="text-slate-500 text-xs mt-2 block">Image Coming Soon</span>
-              </div>
+          <article data-category="automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
+            <div class="relative aspect-video bg-steel overflow-hidden">
+              <span class="absolute top-3 right-3 z-10 rounded-full bg-brand text-white text-xs px-3 py-1">Automotive</span>
+              <img src="assets/images/products/Upper-Bracket.webp" alt="Upper Bracket - Aluminium Die Cast" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">Consumer Appliance Part</h3>
-              <p class="text-brand text-xs uppercase tracking-wide mt-1">Zinc Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Aesthetically finished zinc component for consumer appliances, combining form and function.</p>
+              <h3 class="font-heading font-bold text-xl text-white">Upper Bracket</h3>
+              <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Upper mounting bracket designed for structural support in engine and chassis assemblies — cast for strength and precision fit.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🏠 Consumer Goods</span>
-                <a href="contact.html?product=Consumer+Appliance+Part" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🚗 Structural Components</span>
+                <a href="contact.html?product=Upper+Bracket" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
 
-          <!-- Upcoming Products 11-13 -->
+          <!-- Non-Automotive Products -->
+          <article data-category="non-automotive" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
+            <div class="relative aspect-video bg-steel overflow-hidden">
+              <span class="absolute top-3 right-3 z-10 rounded-full bg-blue-600 text-white text-xs px-3 py-1">Non-Automotive</span>
+              <img src="assets/images/products/PTO-Clutch.webp" alt="PTO Clutch - Aluminium Die Cast" class="product-img">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-xl text-white">PTO Clutch</h3>
+              <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Power take-off clutch component for industrial and agricultural equipment — cast for durability under high-torque conditions.</p>
+              <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
+                <span class="text-muted text-xs">🏭 Industrial Equipment</span>
+                <a href="contact.html?product=PTO+Clutch" class="text-brand text-sm hover:underline">Enquire →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Upcoming / In Development -->
           <article data-category="upcoming" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-purple-600 text-white text-xs px-3 py-1">Upcoming</span>
-              <div class="absolute inset-0 bg-dark/80 flex items-center justify-center">
-                <div class="flex items-center">
-                  <span class="w-3 h-3 bg-brand rounded-full animate-pulse"></span>
-                  <span class="text-brand text-sm ml-2">In Development</span>
-                </div>
-              </div>
+            <div class="relative aspect-video overflow-hidden">
+              <span class="absolute top-3 right-3 z-10 rounded-full bg-purple-600 text-white text-xs px-3 py-1">Upcoming</span>
+              <img src="assets/images/products/in-development/Mixing-Unit.webp" alt="Mixing Unit - In Development" class="product-img">
             </div>
             <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">EV Battery Tray Component</h3>
+              <h3 class="font-heading font-bold text-xl text-white">Mixing Unit</h3>
               <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Lightweight structural component for electric vehicle battery housings — under active development.</p>
+              <p class="text-muted text-sm leading-relaxed mt-3">Precision mixing unit for industrial fluid handling applications — currently in development and prototyping stage.</p>
               <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">⚡ Electric Vehicles</span>
-                <a href="contact.html?product=EV+Battery+Tray+Component" class="text-brand text-sm hover:underline">Enquire →</a>
-              </div>
-            </div>
-          </article>
-
-          <article data-category="upcoming" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-purple-600 text-white text-xs px-3 py-1">Upcoming</span>
-              <div class="absolute inset-0 bg-dark/80 flex items-center justify-center">
-                <div class="flex items-center">
-                  <span class="w-3 h-3 bg-brand rounded-full animate-pulse"></span>
-                  <span class="text-brand text-sm ml-2">In Development</span>
-                </div>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">EV Motor Housing</h3>
-              <p class="text-brand text-xs uppercase tracking-wide mt-1">Aluminium Die Cast</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">Precision housing for electric motors designed for next-generation EV platforms.</p>
-              <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">⚡ Electric Vehicles</span>
-                <a href="contact.html?product=EV+Motor+Housing" class="text-brand text-sm hover:underline">Enquire →</a>
-              </div>
-            </div>
-          </article>
-
-          <article data-category="upcoming" class="product-card bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300 cursor-pointer">
-            <div class="relative aspect-video bg-steel flex items-center justify-center">
-              <span class="absolute top-3 right-3 rounded-full bg-purple-600 text-white text-xs px-3 py-1">Upcoming</span>
-              <div class="absolute inset-0 bg-dark/80 flex items-center justify-center">
-                <div class="flex items-center">
-                  <span class="w-3 h-3 bg-brand rounded-full animate-pulse"></span>
-                  <span class="text-brand text-sm ml-2">In Development</span>
-                </div>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="font-heading font-bold text-xl text-white">New Industrial Component</h3>
-              <p class="text-brand text-xs uppercase tracking-wide mt-1">To Be Announced</p>
-              <p class="text-muted text-sm leading-relaxed mt-3">An upcoming addition to our non-automotive product line, expanding into new industrial verticals.</p>
-              <div class="flex justify-between items-center mt-4 pt-4 border-t border-steel">
-                <span class="text-muted text-xs">🏭 Industrial Machinery</span>
-                <a href="contact.html?product=New+Industrial+Component" class="text-brand text-sm hover:underline">Enquire →</a>
+                <span class="text-muted text-xs">🏭 Industrial</span>
+                <a href="contact.html?product=Mixing+Unit" class="text-brand text-sm hover:underline">Enquire →</a>
               </div>
             </div>
           </article>
@@ -443,7 +364,8 @@
           <div class="process-step flex flex-col items-center flex-1">
             <div class="w-12 h-12 bg-brand rounded-full flex items-center justify-center font-heading font-bold text-xl text-white">2</div>
             <p class="text-white font-semibold text-sm text-center mt-3">Die Casting</p>
-            <p class="text-muted text-xs text-center mt-1 max-w-[120px] leading-relaxed">High-pressure aluminium or zinc injection into precision dies.</p>
+            <!-- CHANGE: Removed zinc from process description -->
+            <p class="text-muted text-xs text-center mt-1 max-w-[120px] leading-relaxed">High-pressure aluminium injection into precision dies.</p>
           </div>
           <div class="hidden md:block flex-1 border-t-2 border-brand border-dashed mt-6 -mb-6"></div>
           <div class="process-step flex flex-col items-center flex-1">
@@ -486,13 +408,6 @@
               <div>
                 <p class="text-white font-semibold">Aluminium Gravity Die Casting</p>
                 <p class="text-muted text-sm mt-1">Components ranging from small to medium complexity.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4 py-4 border-b border-steel">
-              <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <div>
-                <p class="text-white font-semibold">Zinc Die Casting</p>
-                <p class="text-muted text-sm mt-1">Ideal for precision small parts with excellent surface finish.</p>
               </div>
             </div>
             <div class="flex items-start gap-4 py-4 border-b border-steel">
@@ -573,8 +488,9 @@
               <li><a href="index.html" class="text-muted hover:text-white transition">Home</a></li>
               <li><a href="about.html#overview" class="text-muted hover:text-white transition">About Us</a></li>
               <li><a href="products.html#products" class="text-muted hover:text-white transition">Products</a></li>
-              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">R&D & Quality</a></li>
-              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">Specialization</a></li>
+              <!-- CHANGE: Updated footer links to point to quality.html -->
+              <li><a href="quality.html" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+              <li><a href="quality.html#capabilities" class="text-muted hover:text-white transition">Specialization</a></li>
               <li><a href="index.html#clients" class="text-muted hover:text-white transition">Clients</a></li>
               <li><a href="contact.html" class="text-muted hover:text-white transition">Contact Us</a></li>
             </ul>
@@ -585,7 +501,8 @@
               <li><a href="products.html#products" class="text-muted hover:text-white transition">Automotive Components</a></li>
               <li><a href="products.html#products" class="text-muted hover:text-white transition">Non-Automotive Components</a></li>
               <li><a href="products.html#products" class="text-muted hover:text-white transition">Upcoming Products</a></li>
-              <li><a href="index.html#why-us" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+              <!-- CHANGE: Updated footer products col link to quality.html -->
+              <li><a href="quality.html" class="text-muted hover:text-white transition">R&D & Quality</a></li>
             </ul>
           </div>
           <div>
