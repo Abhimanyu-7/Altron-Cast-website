@@ -1,0 +1,632 @@
+<!-- NEW PAGE: quality.html created for R&D & Quality -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R&D & Quality | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar</title>
+  <link rel="icon" href="assets/favicon-pack/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-pack/favicon_16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-pack/favicon_32x32.png">
+  <link rel="apple-touch-icon" href="assets/favicon-pack/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-pack/android-chrome-192x192.png">
+  <meta name="description" content="Altron Cast R&D and Quality - Lab equipment, machinery, IATF 16949, ZED Bronze, BIS certifications, and design & simulation capabilities.">
+  <meta name="author" content="Altron Cast Pvt. Ltd.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://altroncast.com/quality.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Altron Cast Pvt. Ltd.">
+  <meta property="og:url" content="https://altroncast.com/quality.html">
+  <meta property="og:title" content="R&D & Quality | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar">
+  <meta property="og:description" content="Altron Cast R&D and Quality - Lab equipment, machinery, IATF 16949, ZED Bronze, BIS certifications, and design & simulation capabilities.">
+  <meta property="og:image" content="https://altroncast.com/assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="R&D & Quality | Altron Cast Pvt. Ltd. | Precision Die Casting | IMT Manesar">
+  <meta name="twitter:description" content="Altron Cast R&D and Quality - Lab equipment, machinery, IATF 16949, ZED Bronze, BIS certifications, and design & simulation capabilities.">
+  <meta name="twitter:image" content="https://altroncast.com/assets/images/og-image.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#F97316',
+            dark: '#0F172A',
+            steel: '#1E293B',
+            panel: '#1F2937',
+            muted: '#94A3B8'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Barlow Condensed', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .dropdown-content {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: visibility 0.2s, opacity 0.2s, transform 0.2s;
+    }
+    .dropdown:hover .dropdown-content {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-dark text-white font-sans antialiased">
+  <!-- ========== STICKY NAVBAR ========== -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html">
+          <img src="assets/images/logo/Altron-Logo.svg" alt="Altron Cast Pvt. Ltd." class="h-12 w-auto">
+        </a>
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="text-sm text-white hover:text-brand transition">Home</a>
+          <div class="dropdown relative">
+            <a href="about.html#overview" class="text-sm text-white hover:text-brand transition inline-flex items-center">About ▾</a>
+            <div class="dropdown-content absolute top-full left-0 mt-2 w-56 py-2 bg-panel rounded-lg shadow-xl border border-steel">
+              <a href="about.html#overview" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Overview</a>
+              <a href="about.html#milestones" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Milestones</a>
+              <a href="about.html#growth" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Growth & Targets</a>
+              <a href="about.html#expansion" class="block px-4 py-2 text-sm text-white hover:text-brand hover:bg-steel transition">Expansion Plan</a>
+            </div>
+          </div>
+          <a href="products.html#products" class="text-sm text-white hover:text-brand transition">Products</a>
+          <!-- CHANGE: Nav links point to quality.html -->
+          <a href="quality.html" class="text-sm text-white hover:text-brand transition">R&D & Quality</a>
+          <a href="quality.html#capabilities" class="text-sm text-white hover:text-brand transition">Specialization</a>
+          <a href="index.html#clients" class="text-sm text-white hover:text-brand transition">Clients</a>
+          <a href="contact.html" class="text-sm text-white hover:text-brand transition">Contact</a>
+        </div>
+        <a href="tel:+919958007665" class="hidden lg:inline-flex items-center px-4 py-2 bg-brand text-white text-sm font-medium rounded-md hover:bg-orange-600 transition">
+          📞 +91 99580 07665
+        </a>
+        <button id="hamburger" class="lg:hidden p-2 text-white hover:text-brand transition" aria-label="Open menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-drawer" class="lg:hidden fixed inset-x-0 top-20 bg-dark/98 shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out z-40 overflow-y-auto">
+      <div class="py-6 px-4 space-y-2">
+        <a href="index.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Home</a>
+        <div class="py-3 px-4">
+          <span class="text-brand font-semibold text-sm">About</span>
+          <a href="about.html#overview" class="block py-2 pl-4 text-white hover:text-brand transition">Overview</a>
+          <a href="about.html#milestones" class="block py-2 pl-4 text-white hover:text-brand transition">Milestones</a>
+          <a href="about.html#growth" class="block py-2 pl-4 text-white hover:text-brand transition">Growth & Targets</a>
+          <a href="about.html#expansion" class="block py-2 pl-4 text-white hover:text-brand transition">Expansion Plan</a>
+        </div>
+        <a href="products.html#products" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Products</a>
+        <!-- CHANGE: Mobile nav links point to quality.html -->
+        <a href="quality.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">R&D & Quality</a>
+        <a href="quality.html#capabilities" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Specialization</a>
+        <a href="index.html#clients" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Clients</a>
+        <a href="contact.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Contact</a>
+        <a href="tel:+919958007665" class="block py-3 px-4 text-brand font-medium">📞 +91 99580 07665</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-20">
+    <!-- ========== PAGE HERO ========== -->
+    <section class="relative h-72 flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-dark via-steel to-dark"></div>
+      <div class="absolute inset-0 opacity-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <pattern id="hex-grid" width="56" height="100" patternUnits="userSpaceOnUse" patternTransform="scale(2)">
+              <path d="M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hex-grid)"/>
+        </svg>
+      </div>
+      <div class="relative z-10 text-center px-4">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-2">Engineering Excellence</p>
+        <h1 class="font-heading font-bold text-5xl mb-4">R&D & Quality Assurance</h1>
+        <p class="text-muted text-base mb-4 max-w-2xl mx-auto">Precision-driven processes, certified standards, and advanced capabilities — at every stage.</p>
+        <p class="text-muted text-sm">Home / R&D & Quality</p>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 1: LAB EQUIPMENT ========== -->
+    <section id="lab" class="py-24 px-4 bg-dark reveal">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">Quality Lab</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Testing & Inspection Lab</h2>
+        <p class="text-muted text-center mb-16 max-w-2xl mx-auto">Every component is rigorously tested before it leaves our facility — ensuring zero-defect delivery to our clients.</p>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div class="rounded-2xl overflow-hidden aspect-video">
+            <img src="assets/images/Infra/Finishing-QA.webp" alt="Altron Cast Quality Inspection Lab" class="w-full h-full object-cover rounded-2xl">
+          </div>
+          <div>
+            <h3 class="font-heading font-bold text-2xl mb-6">Comprehensive Quality Checks</h3>
+            <div class="space-y-4">
+              <div class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div>
+                  <p class="text-white font-semibold">Dimensional Inspection</p>
+                  <p class="text-muted text-sm mt-1">Precision measurement using calibrated instruments for critical tolerances.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div>
+                  <p class="text-white font-semibold">Leak Testing</p>
+                  <p class="text-muted text-sm mt-1">Pressure-based leak detection to verify casting integrity for fluid-handling components.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div>
+                  <p class="text-white font-semibold">Metallurgical Analysis</p>
+                  <p class="text-muted text-sm mt-1">Material composition verification and microstructure analysis to ensure alloy conformance.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div>
+                  <p class="text-white font-semibold">Visual & Surface Inspection</p>
+                  <p class="text-muted text-sm mt-1">Thorough surface quality checks for casting defects, finish consistency, and cosmetic standards.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lab Equipment Gallery -->
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="rounded-2xl overflow-hidden group">
+            <img src="assets/images/Lab/Hardness-Tester-&-Spectro.jpeg" alt="Hardness Tester & Spectrometer - Material composition and hardness verification" class="w-full h-64 object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500">
+            <p class="text-muted text-sm mt-3 text-center">Hardness Tester & Spectrometer</p>
+          </div>
+          <div class="rounded-2xl overflow-hidden group">
+            <img src="assets/images/Lab/Laser-&-XRAY.jpeg" alt="Laser Measurement & X-Ray Inspection Equipment" class="w-full h-64 object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500">
+            <p class="text-muted text-sm mt-3 text-center">Laser Measurement & X-Ray Inspection</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: MACHINERY & EQUIPMENT ========== -->
+    <section id="machinery" class="py-24 px-4 bg-steel reveal">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">Our Equipment</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Machinery & Manufacturing Equipment</h2>
+        <p class="text-muted text-center mb-16 max-w-2xl mx-auto">State-of-the-art equipment powering every stage of our manufacturing process.</p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- GDC -->
+          <div class="bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300">
+            <div class="aspect-video overflow-hidden">
+              <img src="assets/images/Infra/GDC.webp" alt="Gravity Die Casting Machine" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-lg text-white mb-2">Gravity Die Casting</h3>
+              <p class="text-muted text-sm leading-relaxed">Precision aluminium gravity die casting machines for producing complex geometries with consistent dimensional accuracy.</p>
+            </div>
+          </div>
+
+          <!-- CNC -->
+          <div class="bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300">
+            <div class="aspect-video overflow-hidden">
+              <img src="assets/images/machines/CNC.webp" alt="CNC Machining Centre" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-lg text-white mb-2">CNC & VMC Machining</h3>
+              <p class="text-muted text-sm leading-relaxed">In-house CNC and VMC machining centres for post-cast operations — achieving tight tolerances on critical dimensions.</p>
+            </div>
+          </div>
+
+          <!-- Shot Blasting -->
+          <div class="bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300">
+            <div class="aspect-video overflow-hidden">
+              <img src="assets/images/Infra/Shotblasting.webp" alt="Shot Blasting Equipment" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-lg text-white mb-2">Shot Blasting</h3>
+              <p class="text-muted text-sm leading-relaxed">Industrial shot blasting for surface preparation, cleaning, and finishing — ensuring consistent quality before downstream processes.</p>
+            </div>
+          </div>
+
+          <!-- Heat Treatment -->
+          <div class="bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300">
+            <div class="aspect-video overflow-hidden">
+              <img src="assets/images/Infra/Heat-Treatment.webp" alt="Heat Treatment Furnace" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-lg text-white mb-2">Heat Treatment</h3>
+              <p class="text-muted text-sm leading-relaxed">Controlled heat treatment furnaces for enhancing mechanical properties — hardness, strength, and stress relief of cast components.</p>
+            </div>
+          </div>
+
+          <!-- Cutting & Fettling -->
+          <div class="bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300">
+            <div class="aspect-video overflow-hidden">
+              <img src="assets/images/Infra/Cutting-Fettling.webp" alt="Cutting and Fettling Station" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-lg text-white mb-2">Cutting & Fettling</h3>
+              <p class="text-muted text-sm leading-relaxed">Precision trimming and fettling stations for removing flash, runners, and excess material — preparing castings for machining.</p>
+            </div>
+          </div>
+
+          <!-- Machine Floor -->
+          <div class="bg-panel rounded-2xl overflow-hidden hover:scale-[1.02] hover:shadow-xl hover:shadow-brand/10 transition-all duration-300">
+            <div class="aspect-video overflow-hidden">
+              <img src="assets/images/Infra/Machine-Floor.webp" alt="Altron Cast Machine Floor" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <h3 class="font-heading font-bold text-lg text-white mb-2">Production Floor</h3>
+              <p class="text-muted text-sm leading-relaxed">A well-organized, modern production floor at IMT Manesar — built for efficiency, safety, and scalable operations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: CERTIFICATIONS ========== -->
+    <section id="certifications" class="py-24 px-4 bg-dark reveal">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">Certifications</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Standards We Uphold</h2>
+        <p class="text-muted text-center mb-16 max-w-2xl mx-auto">Our certifications are a testament to our commitment to quality, sustainability, and industry-leading practices.</p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- IATF 16949 -->
+          <div class="bg-panel rounded-2xl p-8 border border-steel hover:border-brand transition-colors">
+            <div class="w-16 h-16 bg-brand/10 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-white mb-3">IATF 16949</h3>
+            <p class="text-muted text-sm leading-relaxed mb-4">The international standard for automotive quality management systems. IATF 16949 certification ensures our processes meet the stringent requirements of global automotive OEMs and Tier-1 suppliers.</p>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Automotive QMS compliance</li>
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Continuous improvement processes</li>
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Defect prevention methodology</li>
+            </ul>
+          </div>
+
+          <!-- ZED Bronze -->
+          <div class="bg-panel rounded-2xl p-8 border border-steel hover:border-brand transition-colors">
+            <div class="w-16 h-16 bg-brand/10 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-white mb-3">ZED Bronze</h3>
+            <p class="text-muted text-sm leading-relaxed mb-4">The MSME Zero Defect Zero Effect certification recognizes manufacturers committed to producing defect-free products with minimal environmental impact — a mark of sustainable manufacturing excellence.</p>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Zero-defect manufacturing</li>
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Environmental sustainability</li>
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> MSME recognized excellence</li>
+            </ul>
+          </div>
+
+          <!-- BIS Certificate -->
+          <div class="bg-panel rounded-2xl p-8 border border-steel hover:border-brand transition-colors">
+            <div class="w-16 h-16 bg-brand/10 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-white mb-3">BIS Certificate</h3>
+            <p class="text-muted text-sm leading-relaxed mb-4">Bureau of Indian Standards certification ensures our products and processes comply with nationally recognized quality and safety benchmarks — credibility that our clients can trust.</p>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> National quality standards</li>
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Product safety compliance</li>
+              <li class="flex items-center gap-2 text-muted"><span class="text-brand">✓</span> Industry-recognized benchmarks</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Certificate Downloads -->
+        <div class="mt-16 pt-12 border-t border-steel">
+          <h3 class="font-heading font-bold text-2xl text-center text-white mb-3">View Our Certificates</h3>
+          <p class="text-muted text-center text-sm mb-10 max-w-xl mx-auto">Download or view the original certificates issued to Altron Cast Pvt. Ltd.</p>
+          <div class="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <!-- IATF Certificate -->
+            <a href="assets/certificates/IATF Certificate (2).pdf" target="_blank" rel="noopener noreferrer" class="group bg-steel rounded-xl p-6 flex flex-col items-center text-center hover:border-brand border border-transparent transition-colors">
+              <img src="assets/certificates/certification-logo/IATF.webp" alt="IATF Logo" class="h-16 w-auto mb-4 opacity-80 group-hover:opacity-100 transition-opacity">
+              <p class="text-white font-semibold text-sm mb-1">IATF 16949 Certificate</p>
+              <p class="text-muted text-xs mb-4">Certified by TUV SUD</p>
+              <span class="inline-flex items-center gap-1.5 text-brand text-xs font-medium">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                View PDF
+              </span>
+            </a>
+            <!-- ZED Bronze Certificate -->
+            <a href="assets/certificates/Bronze ZED.pdf" target="_blank" rel="noopener noreferrer" class="group bg-steel rounded-xl p-6 flex flex-col items-center text-center hover:border-brand border border-transparent transition-colors">
+              <img src="assets/certificates/certification-logo/MSME.webp" alt="MSME ZED Logo" class="h-16 w-auto mb-4 opacity-80 group-hover:opacity-100 transition-opacity">
+              <p class="text-white font-semibold text-sm mb-1">ZED Bronze Certificate</p>
+              <p class="text-muted text-xs mb-4">MSME Zero Defect Zero Effect</p>
+              <span class="inline-flex items-center gap-1.5 text-brand text-xs font-medium">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                View PDF
+              </span>
+            </a>
+            <!-- BIS Certificate -->
+            <a href="assets/certificates/Altron BIS letter- certificate.pdf" target="_blank" rel="noopener noreferrer" class="group bg-steel rounded-xl p-6 flex flex-col items-center text-center hover:border-brand border border-transparent transition-colors">
+              <img src="assets/certificates/certification-logo/BIS.webp" alt="BIS Logo" class="h-16 w-auto mb-4 opacity-80 group-hover:opacity-100 transition-opacity">
+              <p class="text-white font-semibold text-sm mb-1">BIS Certificate</p>
+              <p class="text-muted text-xs mb-4">Bureau of Indian Standards</p>
+              <span class="inline-flex items-center gap-1.5 text-brand text-xs font-medium">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                View PDF
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: DESIGN & SIMULATION CAPABILITIES ========== -->
+    <section id="capabilities" class="py-24 px-4 bg-steel reveal">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-4 text-center">Engineering Capabilities</p>
+        <h2 class="font-heading font-bold text-4xl text-center mb-4">Design & Simulation</h2>
+        <p class="text-muted text-center mb-16 max-w-2xl mx-auto">From concept to casting — our engineering team leverages advanced tools to optimize every component before production.</p>
+
+        <div class="grid md:grid-cols-2 gap-16 items-start">
+          <div class="space-y-0">
+            <div class="flex items-start gap-4 py-5 border-b border-dark">
+              <div class="w-10 h-10 bg-brand/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold">CAD/CAM Design</p>
+                <p class="text-muted text-sm mt-1">3D modelling and toolpath programming for die design, ensuring manufacturability and precision from the design stage.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 py-5 border-b border-dark">
+              <div class="w-10 h-10 bg-brand/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold">Casting Simulation</p>
+                <p class="text-muted text-sm mt-1">Flow and solidification simulation to predict and eliminate defects before the first pour — reducing trial iterations and scrap.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 py-5 border-b border-dark">
+              <div class="w-10 h-10 bg-brand/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold">DFM Analysis</p>
+                <p class="text-muted text-sm mt-1">Design for Manufacturability reviews to optimize part geometry, draft angles, and wall thickness for casting efficiency.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 py-5">
+              <div class="w-10 h-10 bg-brand/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold">In-House Tooling</p>
+                <p class="text-muted text-sm mt-1">Complete control over die design, fabrication, and maintenance — enabling rapid iteration and cost-effective production.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-panel rounded-2xl p-8 border border-steel">
+            <h3 class="font-heading font-bold text-xl text-white mb-6">Technical Specifications</h3>
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <div><p class="text-muted text-sm">Casting Process</p><p class="text-white font-semibold text-sm">Gravity Die Casting</p></div>
+              <div><p class="text-muted text-sm">Materials</p><p class="text-white font-semibold text-sm">Aluminium Alloys</p></div>
+              <div><p class="text-muted text-sm">Component Weight Range</p><p class="text-white font-semibold text-sm">Up to 5 kg</p></div>
+              <div><p class="text-muted text-sm">Dimensional Tolerance</p><p class="text-white font-semibold text-sm">±0.1 mm (standard)</p></div>
+              <div><p class="text-muted text-sm">Surface Finish</p><p class="text-white font-semibold text-sm">As-cast, Machined, Coated</p></div>
+              <div><p class="text-muted text-sm">Post-Cast Operations</p><p class="text-white font-semibold text-sm">CNC, VMC, Shot Blasting</p></div>
+              <div><p class="text-muted text-sm">Facility Location</p><p class="text-white font-semibold text-sm">IMT Manesar, Gurugram</p></div>
+              <div><p class="text-muted text-sm">Industry Standards</p><p class="text-white font-semibold text-sm">IATF 16949 Certified</p></div>
+            </div>
+            <a href="contact.html" class="block w-full text-center border border-brand text-brand px-6 py-3 rounded-md hover:bg-brand hover:text-white transition font-medium text-sm">Contact Our Engineering Team</a>
+          </div>
+        </div>
+
+        <!-- Simulation Preview Placeholder -->
+        <div class="mt-20 pt-12 border-t border-dark">
+          <div class="text-center mb-10">
+            <p class="text-brand text-xs tracking-[0.3em] uppercase font-semibold mb-3">Casting Simulation</p>
+            <h3 class="font-heading font-bold text-2xl text-white mb-3">Simulation-Driven Development</h3>
+            <p class="text-muted text-sm max-w-2xl mx-auto">We use advanced casting simulation to predict metal flow, solidification, and potential defects — optimizing every design before production begins.</p>
+          </div>
+          <div class="max-w-4xl mx-auto rounded-2xl overflow-hidden border border-steel">
+            <video
+              id="simulation-video"
+              muted
+              loop
+              playsinline
+              preload="none"
+              class="w-full h-auto"
+            >
+              <source data-src="assets/videos/simulation.webm" type="video/webm">
+              <source data-src="assets/videos/simulation.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MINI CTA SECTION ========== -->
+    <section class="py-20 px-4 bg-gradient-to-r from-brand to-orange-700 reveal">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="font-heading font-bold text-4xl text-white mb-6">Ready to Discuss Your Casting Requirements?</h2>
+        <p class="text-white/80 text-lg mb-10">Our engineering and quality team is ready to support your project from design to delivery.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="contact.html" class="inline-flex items-center justify-center px-8 py-3 bg-white text-dark font-medium rounded-md hover:bg-gray-100 transition">Get In Touch</a>
+          <a href="tel:+919958007665" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-medium rounded-md hover:bg-orange-800 transition">Call Us Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-[#0A0F1E] py-16 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          <div>
+            <img src="assets/images/logo/Altron-Logo.svg" alt="Altron Cast Pvt. Ltd." class="h-10 w-auto mb-3">
+            <p class="text-muted italic text-sm mb-4">Casting with Passion.</p>
+            <div class="flex gap-4">
+              <a href="#" class="text-muted hover:text-brand transition" aria-label="LinkedIn">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" class="text-muted hover:text-brand transition" aria-label="YouTube">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20Altron%20Cast%20products." target="_blank" rel="noopener noreferrer" class="text-muted hover:text-brand transition" aria-label="WhatsApp">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="text-muted hover:text-white transition">Home</a></li>
+              <li><a href="about.html#overview" class="text-muted hover:text-white transition">About Us</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Products</a></li>
+              <!-- CHANGE: Footer links point to quality.html -->
+              <li><a href="quality.html" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+              <li><a href="quality.html#capabilities" class="text-muted hover:text-white transition">Specialization</a></li>
+              <li><a href="index.html#clients" class="text-muted hover:text-white transition">Clients</a></li>
+              <li><a href="contact.html" class="text-muted hover:text-white transition">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Products</h4>
+            <ul class="space-y-2">
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Automotive Components</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Non-Automotive Components</a></li>
+              <li><a href="products.html#products" class="text-muted hover:text-white transition">Upcoming Products</a></li>
+              <li><a href="quality.html" class="text-muted hover:text-white transition">R&D & Quality</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-heading font-bold text-white mb-4">Reach Us</h4>
+            <ul class="space-y-3 text-muted text-sm">
+              <li><a href="mailto:info@altroncast.com" class="hover:text-white transition flex items-start gap-2">📧 info@altroncast.com</a></li>
+              <li><a href="tel:+919958007665" class="hover:text-white transition flex items-start gap-2">📞 +91 99580 07665</a></li>
+              <li><a href="tel:+911244388400" class="hover:text-white transition flex items-start gap-2">📞 +91 124 438 8400</a></li>
+              <li class="flex items-start gap-2">📍 Plot No. 84, Sector – 5, Phase – I, IMT Manesar, Gurugram, H.R. 122051</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-steel py-4 text-center">
+          <p class="text-muted text-sm">© 2025 Altron Cast Pvt. Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <div class="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-30"></div>
+    <a
+      href="https://wa.me/919958007665?text=Hi%2C%20I%20have%20an%20enquiry%20about%20Altron%20Cast%20products."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="relative w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg class="w-7 h-7 text-white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.04 3C9.422 3 4.04 8.382 4.04 15c0 2.395.664 4.626 1.93 6.61L4 29l7.58-1.94A11.88 11.88 0 0 0 16.04 27c6.617 0 12-5.382 12-12s-5.383-12-12-12zM16 24.2h-.006a8.18 8.18 0 0 1-4.166-1.141l-.299-.177-3.113.797.832-3.041-.193-.32A8.14 8.14 0 0 1 7.8 15c0-4.53 3.683-8.213 8.214-8.213 2.196 0 4.259.855 5.813 2.41A8.16 8.16 0 0 1 24.24 15c-.003 4.53-3.686 8.2-8.24 8.2zm4.002-6.842c-.219-.11-1.296-.64-1.498-.713-.202-.074-.35-.11-.498.11-.147.219-.57.713-.698.861-.128.147-.257.165-.476.055-.219-.11-.933-.369-1.777-1.131-.658-.593-1.111-1.318-1.242-1.534-.128-.219-.014-.335.096-.459.099-.098.219-.257.328-.385.11-.128.165-.22.247-.366.083-.147.041-.275-.02-.385-.061-.11-.498-1.2-.68-1.646-.179-.456-.36-.394-.498-.401l-.425-.007c-.147 0-.384.055-.584.275-.2.22-.907.886-.907 2.159 0 1.274.929 2.506 1.059 2.682.128.174 1.83 2.793 4.431 3.83.62.256 1.104.408 1.481.523.622.198 1.188.17 1.635.103.499-.074 1.296-.548 1.48-1.055.183-.508.183-.949.128-1.04-.055-.092-.201-.147-.42-.256z" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
+
+  <script>
+    // 1. STICKY NAV
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (!nav) return;
+      nav.classList.toggle('bg-[#0F172A]', window.scrollY > 80);
+      nav.classList.toggle('shadow-lg', window.scrollY > 80);
+    });
+
+    // 2. MOBILE MENU
+    const hamburger = document.getElementById('hamburger');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    let drawerOpen = false;
+
+    if (hamburger && mobileDrawer) {
+      hamburger.addEventListener('click', () => {
+        drawerOpen = !drawerOpen;
+        mobileDrawer.classList.toggle('-translate-y-full', !drawerOpen);
+        mobileDrawer.classList.toggle('translate-y-0', drawerOpen);
+        hamburger.setAttribute('aria-label', drawerOpen ? 'Close menu' : 'Open menu');
+      });
+
+      mobileDrawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          drawerOpen = false;
+          mobileDrawer.classList.add('-translate-y-full');
+          mobileDrawer.classList.remove('translate-y-0');
+        });
+      });
+    }
+
+    // 3. SCROLL REVEAL
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 4. LAZY-LOAD SIMULATION VIDEO
+    const video = document.getElementById('simulation-video');
+    if (video) {
+      const videoObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            video.querySelectorAll('source[data-src]').forEach(source => {
+              source.src = source.dataset.src;
+              source.removeAttribute('data-src');
+            });
+            video.load();
+            video.play();
+            videoObserver.unobserve(video);
+          }
+        });
+      }, { threshold: 0.3 });
+      videoObserver.observe(video);
+    }
+  </script>
+</body>
+</html>
