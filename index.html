@@ -108,7 +108,7 @@
 </head>
 <body class="bg-dark text-white font-sans antialiased">
   <!-- ========== SECTION 1: STICKY NAVBAR ========== -->
-  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out">
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-dark transition-colors duration-300 ease-in-out">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
@@ -142,7 +142,7 @@
         </a>
 
         <!-- Mobile Hamburger -->
-        <button id="hamburger" class="lg:hidden p-2 text-white hover:text-brand transition" aria-label="Open menu">
+        <button id="hamburger" class="lg:hidden p-3 text-white hover:text-brand transition" aria-label="Open menu">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
           </svg>
@@ -151,7 +151,7 @@
     </div>
 
     <!-- Mobile Drawer -->
-    <div id="mobile-drawer" class="lg:hidden fixed inset-x-0 top-20 bg-dark/98 shadow-xl transform -translate-y-full transition-transform duration-300 ease-in-out z-40 overflow-y-auto">
+    <div id="mobile-drawer" class="lg:hidden hidden absolute left-0 right-0 top-full bg-dark shadow-xl overflow-y-auto max-h-[calc(100vh-5rem)]">
       <div class="py-6 px-4 space-y-2">
         <a href="index.html" class="block py-3 px-4 text-white hover:text-brand hover:bg-steel rounded transition">Home</a>
         <div class="py-3 px-4">
@@ -666,8 +666,7 @@
 
     hamburger.addEventListener('click', () => {
       drawerOpen = !drawerOpen;
-      mobileDrawer.classList.toggle('-translate-y-full', !drawerOpen);
-      mobileDrawer.classList.toggle('translate-y-0', drawerOpen);
+      mobileDrawer.classList.toggle('hidden', !drawerOpen);
       hamburger.setAttribute('aria-label', drawerOpen ? 'Close menu' : 'Open menu');
     });
 
@@ -675,8 +674,7 @@
     mobileDrawer.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         drawerOpen = false;
-        mobileDrawer.classList.add('-translate-y-full');
-        mobileDrawer.classList.remove('translate-y-0');
+        mobileDrawer.classList.add('hidden');
       });
     });
 
